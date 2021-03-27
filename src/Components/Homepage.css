@@ -225,6 +225,8 @@ p {
 	padding: 0.5em;
 }
 
-.phone {
-	padding: 5px;
+.contact {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
 }

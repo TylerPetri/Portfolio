@@ -111,8 +111,11 @@ function Homepage() {
         </section>
 
         <footer className="footer" id="footer">
-            <a href={mailto} className="footer-link">tylerpetri@hotmail.com</a>
-            <div className="phone">(514)566-5383</div>
+            <div className="contact">
+                <a href={mailto} className="footer-link">tylerpetri@hotmail.com</a>
+                <div className="phone">(514)566-5383</div>
+            </div>
+            
             <ul className="social-list">
                 <li className="social-item">
                     <a href={linkedin} className="social-link" target="_blank" rel="noreferrer">
