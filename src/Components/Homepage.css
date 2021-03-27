@@ -1,32 +1,14 @@
 .boody {
-	/* background: linear-gradient(to right, red, blue) */
-	/* background: linear-gradient(45deg,red, black) */
 	background-image: url('../assets/images/RoseOnYellow.jpg');
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-	/* background: radial-gradient(red, black, blue, green, yellow, orange,purple); */
-	/* text-decoration: none; */
-	/* background: radial-gradient(
-	   red, black, blue,
-	   rgb(163, 248, 244),
-	   green, yellow, orange,purple);
-	background-size: 500% 500%;
-	position: relative;
-	animation: change 12s ease-in-out infinite; */
-
+	font-family: 'Noto Sans'
 }
 
-@keyframes change {
-	0% {background-position: 0 50%;}
-	50% {background-position: 100% 50%;}
-	100% {background-position: 0% 50%;}
-  }
-
-  @keyframes mymove {
-	from {left: 0px;}
-	to {left: 300px;}
-  }
+html {
+	scroll-behavior: smooth;
+}
 
 a {
 	text-decoration: none;
@@ -44,20 +26,17 @@ section {
 img {
 	display: block;
 	max-width:100%;
-	/* animation-timing-function: linear;
-	position: relative;
-	animation: mymove 5s infinite;
-	overflow: hidden;
-    transition-duration: 0.8s;
-    transition-property: transform; */
+}
+
+#top {
+	height: 55px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .section-title {
 	margin-bottom: 0.25em;
-}
-
-.title-intro {
-	font-weight: var(--fw-reg);
 }
 
 .title-intro strong {
@@ -68,24 +47,11 @@ img {
 	margin: 0;
 }
 
-.subtitle-intro,
-.subtitle-about {
+.subtitle-intro {
 	background: pink;
-	font-family: var(--ff-header);
+	font-weight: bold;
 	margin-bottom: 1em;
 	padding: 0.25em 1em;
-}
-
-.subtitle-work {
-	color: var(--color-accent);
-	font-weight: var(--fw-bold);
-	margin-bottom: 2em;
-}
-
-header {
-	display: flex;
-	justify-content: space-between;
-	padding: 1em;
 }
 
 .nav {
@@ -132,8 +98,8 @@ header {
 		margin: 55px auto 0;
 		grid-column-gap: 1em;
 		grid-template-areas:
-			"img title"
-			"img subtitle";
+			"img title title title title title title"
+			"img subtitle subtitle subtitle subtitle subtitle subtitle";
 		grid-template-columns: min-content max-content;
 	}
 
@@ -146,7 +112,6 @@ header {
 	}
 
 	.subtitle-intro {
-		font-family: var(--ff-header);
 		align-self: start;
 		grid-column: -1 / 1;
 		grid-row: 2;
@@ -161,9 +126,11 @@ header {
 	color:purple;
 	height: 50px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	gap: 10px;
 	margin-top: 55px;
+	margin-bottom: 55px
 }
 
 .icons {
@@ -188,13 +155,17 @@ header {
 
 .work {
 	display: block;
-	width:300px;
-	height:450px;
+	width: 300px;
+	height: 500px;
 	border: 3px solid rgb(95, 134, 46);
 	border-radius: 20px;
 	overflow:hidden;
 	background-color:rgb(95, 134, 46);
 	color:pink;
+}
+
+.work:active {
+	box-shadow: none;
 }
 
 .work:hover {
@@ -212,10 +183,42 @@ p {
 }
 
 .gitlink {
-	color:cornflowerblue;
+	color:rgb(158, 189, 248);
 	padding: 0 10px;
 }
 
 .gitlink:hover {
 	text-decoration: underline;
+}
+
+.footer {
+	text-align: center;
+	padding: .5em 0;
+	background-color: pink;
+	border-top: 4px solid white;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-link {
+	font-weight: bold;
+}
+
+.social-list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin: .5em 0 0;
+	padding: 0;
+}
+
+.social-item {
+	margin: 0 0.5em;
+}
+
+.social-link {
+	padding: 0.5em;
 }
