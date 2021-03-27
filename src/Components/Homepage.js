@@ -55,7 +55,7 @@ function Homepage() {
                         <h4>Full stack restful API & mySQL </h4>
                         <p>Mood tracker! Login, create a note (prompted if not logged-in, too many characters, etc), check your latest notes (edit, delete) and view data on calendar or donut graph! </p>
                         <p>Note: heroku bug regarding mySQL date feature</p>
-                        <a href='https://github.com/TylerPetri/Portfolio.git' target="_blank" rel="noreferrer" className="gitlink">Github</a>
+                        <a href='https://github.com/Humble-Attackers/Group-Mood-Tracker.git' target="_blank" rel="noreferrer" className="gitlink">Github</a>
                     </a>
                 </div>
                 <div className="work">
@@ -63,7 +63,7 @@ function Homepage() {
                         <img src={gmegif} alt="get-me-employed"/>
                         <h4>3rd party API</h4>
                         <p>Job search front end API app. Enter details, save whichever you're interested in and click the cards to be redirected to their site!</p>
-                        <a href='https://github.com/Humble-Attackers/Group-Mood-Tracker.git' target="_blank" rel="noreferrer" className="gitlink">Github</a>
+                        <a href='https://github.com/TeamCircleAlpha/GetMeEmployed.git' target="_blank" rel="noreferrer" className="gitlink">Github</a>
                     </a>
                 </div>
                 <div className="work">
@@ -71,7 +71,7 @@ function Homepage() {
                         <img src={homepageimg} alt="employee-directory"/>
                         <h4>React app</h4>
                         <p>Your employee's information all in one place. Need to reach someone? Filter by name and/or city, boom. Get'er done.</p>
-                        <a href='https://github.com/TylerPetri/Portfolio.git' target="_blank" rel="noreferrer" className="gitlink">Github</a>
+                        <a href='https://github.com/TylerPetri/Employee-Directory.git' target="_blank" rel="noreferrer" className="gitlink">Github</a>
                     </a>
                 </div>
                 <div className="work">
@@ -112,6 +112,7 @@ function Homepage() {
 
         <footer className="footer" id="footer">
             <a href={mailto} className="footer-link">tylerpetri@hotmail.com</a>
+            <div className="phone">(514)566-5383</div>
             <ul className="social-list">
                 <li className="social-item">
                     <a href={linkedin} className="social-link" target="_blank" rel="noreferrer">

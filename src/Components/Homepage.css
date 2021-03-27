@@ -195,11 +195,13 @@ p {
 	text-align: center;
 	padding: .5em 0;
 	background-color: pink;
+	color: rgb(86, 144, 252);
 	border-top: 4px solid white;
+	font-weight: bold;
 }
 
 .footer a {
-	color: white;
+	color: rgb(86, 144, 252);
 	text-decoration: none;
 }
 
@@ -221,4 +223,8 @@ p {
 
 .social-link {
 	padding: 0.5em;
+}
+
+.phone {
+	padding: 5px;
 }
