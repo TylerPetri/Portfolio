@@ -49,7 +49,7 @@ function Homepage() {
                         <img src={homepageimg} alt="employee-directory"/>
                         <h4>React app</h4>
                         <p>Your employee's information all in one place. Need to reach someone? Filter by name and/or city, boom. Get'er done.</p>
-                        <a href='https://github.com/TylerPetri/Employee-Directory/tree/master' target="_blank" className="gitlink">Github</a>
+                        <a href='https://github.com/TylerPetri/Portfolio.git' target="_blank" className="gitlink">Github</a>
                     </a>
                 </div>
                 <div className="work">
