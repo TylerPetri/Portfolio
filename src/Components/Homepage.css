@@ -5,19 +5,17 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-	box-shadow: 0 0 5px pink;
-	background-color: pink;
+	background-color: rgba(0, 0, 0, 0.60);
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-	background: purple; 
-	border-radius: 10px;
+	background: rgb(128, 0, 128, .6); 
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-	background: rgba(128, 0, 128, 0.85); 
+	background: purple; 
   }
 
 .boody {
