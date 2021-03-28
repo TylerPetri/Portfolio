@@ -36,7 +36,7 @@ function Homepage() {
 
         <section className="intro">
             <h1 className="section-title title-intro">Hi, I'm <span>Tyler Petri</span></h1>
-            <p className="subtitle subtitle-intro">Web Developing Engineer</p>
+            <p className="subtitle subtitle-intro">Web Development Engineer</p>
             <img src={mainImg} alt="Profile" className="my-pic"/>
         </section>
 
