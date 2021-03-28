@@ -1,3 +1,25 @@
+/* width */
+::-webkit-scrollbar {
+	width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: 0 0 5px pink;
+	background-color: pink;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: purple; 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgba(128, 0, 128, 0.85); 
+  }
+
 .boody {
 	background-image: url('../assets/images/cattoast.jpg');
 	background-repeat: no-repeat;
