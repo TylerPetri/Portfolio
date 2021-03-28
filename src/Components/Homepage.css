@@ -19,10 +19,11 @@
   }
 
 .boody {
-	background-image: url('../assets/images/cattoast.jpg');
+	/* background-image: url('../assets/images/cattoast.jpg');
 	background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
+	background: linear-gradient(45deg, purple, rgb(0, 0, 128));
 	font-family: 'Noto Sans'
 }
 
