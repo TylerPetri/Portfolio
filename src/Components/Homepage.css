@@ -23,7 +23,7 @@
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; */
-	background: linear-gradient(45deg, purple, rgb(0, 0, 128));
+	background: linear-gradient(45deg, rgb(108, 0, 108), rgb(0, 0, 108));
 	font-family: 'Noto Sans'
 }
 
