@@ -167,7 +167,7 @@ img {
 	justify-content: center;
 	gap: 10px;
 	margin-top: 55px;
-	margin-bottom: 55px
+	margin-bottom: 110px
 }
 
 .icons {
@@ -245,6 +245,7 @@ p {
 
 .footer-link {
 	font-weight: bold;
+	padding: 0 5px;
 }
 
 .social-list {
@@ -267,8 +268,14 @@ p {
 	display: flex;
 	gap: 20px;
 	justify-content: center;
+	flex-wrap: wrap;
+
 }
 
 #purple:hover {
 	box-shadow: 0 0 6px purple;
+}
+
+.phone {
+	padding: 0 5px;
 }
