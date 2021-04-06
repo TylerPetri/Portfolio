@@ -142,7 +142,7 @@ img {
 
 	.my-pic {
 		grid-area: img;
-		min-width: 300px;
+		min-width: 200px;
 		position: relative;
 		z-index: 2;
 		margin: 0;

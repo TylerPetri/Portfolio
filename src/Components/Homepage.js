@@ -1,5 +1,5 @@
 import React from "react";
-import mainImg from '../assets/images/helloworld.png'
+import mainImg from '../assets/images/LookAtThisDuuuude.jpg'
 import dashboard from '../assets/images/Dashboard.PNG'
 import homepageimg from '../assets/images/Homepage.PNG'
 import btpic from '../assets/images/budget.PNG'
@@ -36,7 +36,7 @@ function Homepage() {
 
         <section className="intro">
             <h1 className="section-title title-intro">Hi, I'm <span>Tyler Petri</span></h1>
-            <p className="subtitle subtitle-intro">Web Development Engineer</p>
+            <p className="subtitle subtitle-intro">Web Development</p>
             <img src={mainImg} alt="Profile" className="my-pic"/>
         </section>
 
@@ -112,7 +112,7 @@ function Homepage() {
 
         <footer className="footer" id="footer">
             <div className="contact">
-                <a href={mailto} className="footer-link">tylerpetri@hotmail.com</a>
+                <a href={mailto} className="footer-link">tylerpetri.inc@outlook.com</a>
                 <div className="phone">(514)566-5383</div>
             </div>
             
