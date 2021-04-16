@@ -1,5 +1,5 @@
 import React from "react";
-import mainImg from '../assets/images/LookAtThisDuuuude.jpg'
+import mainImg from '../assets/images/facebook.PNG'
 import dashboard from '../assets/images/Dashboard.PNG'
 import homepageimg from '../assets/images/Homepage.PNG'
 import btpic from '../assets/images/budget.PNG'
