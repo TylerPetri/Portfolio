@@ -159,15 +159,33 @@ img {
 	}
 }
 
+.bioBox {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	color: pink;
+	background-color: purple;
+	font-weight: bold;
+
+}
+
+.bioTitle {
+	width: max-content;
+	margin: 0 auto;
+	font-family: 'Press Start 2P';
+	text-shadow: 1px 1px pink;
+	color:rgb(86, 144, 252) !important
+}
+
 .languages {
 	color:rgb(86, 144, 252);
-	height: 50px;
+	height: max-content;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 10px;
 	margin-top: 55px;
-	margin-bottom: 110px
+	margin-bottom: 55px;
 }
 
 .icons {
@@ -181,24 +199,40 @@ img {
 	box-shadow: 0 0 6px pink;
 }
 
+.projectsTitle {
+	color:rgb(86, 144, 252);
+	text-shadow: 2px 2px purple;
+	font-family: 'Press Start 2P';
+	width: max-content;
+	margin: 0 auto;
+	padding-top: 20px;
+	font-size: 30px;
+}
+
 .projects {
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: 40px auto;
 	gap: 15px;
-	justify-content: center
+	justify-content: center;
 }
 
 .work {
 	display: block;
-	width: 300px;
-	height: 500px;
+	width: 450px;
+	height: 600px;
 	border: 3px solid purple;
 	border-radius: 20px;
 	overflow:hidden;
 	background-color:purple;
 	color:rgb(86, 144, 252);
+}
+
+@media (max-width: 1002px) {
+	.work {
+		height: max-content;
+	}
 }
 
 .work:active {
@@ -220,9 +254,15 @@ p {
 	padding-bottom: 20px;
 }
 
+.gitappLinks {
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px 0 15px;
+}
+
 .gitlink {
 	color:rgb(158, 189, 248);
-	padding-left: 10px;
 }
 
 .gitlink:hover {
