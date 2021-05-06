@@ -21,6 +21,7 @@ const linkedin = "https://www.linkedin.com/in/tyler-petri-051155206/"
 const github = "https://github.com/TylerPetri"
 const chatch4ngif = 'https://media.giphy.com/media/YNy9NsmSvakoXoTi3L/giphy.gif'
 const snakegif = 'https://media.giphy.com/media/w9mfy63BHgH9uozYhL/giphy.gif'
+const sorting = 'https://media.giphy.com/media/SyCrzY7OdXGAz3F9v2/giphy.gif'
 
 function Homepage() {
     return (
@@ -74,7 +75,19 @@ function Homepage() {
                             <a href='https://googlebooksapi9000.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
                         </div>
                     </a>
-                </div><div className="work">
+                </div>
+                <div className="work">
+                    <a href='https://github.com/TylerPetri/Sorting-Visualizer' target="_blank" rel="noreferrer">
+                        <img src={sorting} alt="sorting-visualizer"/>
+                        <h4>Sorting Algorithms Visualized</h4>
+                        <p>Simple Sorting Visualizer. Generate a new array and select the sorting algorithm you wish to visualize!</p>
+                        <div className="gitappLinks">
+                            <a href='https://github.com/TylerPetri/Sorting-Visualizer.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
+                            <a href='https://github.com/TylerPetri/Sorting-Visualizer' target="_blank" rel="noreferrer" className="gitlink">App</a>
+                        </div>
+                    </a>
+                </div>
+                <div className="work">
                 <a href='tylerpetri.github.io/snake-game/' target="_blank" rel="noreferrer">
                         <img src={snakegif} alt="snake-game"/>
                         <h4>Reverse Linked-List Snake game React app</h4>
@@ -84,7 +97,8 @@ function Homepage() {
                             <a href='tylerpetri.github.io/snake-game/' target="_blank" rel="noreferrer" className="gitlink">App</a>
                         </div>
                     </a>
-                </div><div className="work">
+                </div>
+                <div className="work">
                     <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer">
                         <img src={chatch4ngif} alt="chat-platform"/>
                         <h4>MERN socket.io Chat platform</h4>
