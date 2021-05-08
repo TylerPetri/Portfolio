@@ -49,7 +49,7 @@ function Homepage() {
         <div className="bioBox">
             <h3 className="bioTitle">About me</h3>
             <p>
-                Retired poker player, semi-retired cook, full stack engineer at your service with the MERN (MongoDB, Express, React, Node), the Express Handlebars, MySQL, React hooks, ORM, CSS3, the works… Graduate of a 12-week intensive bootcamp, with C language experience in Sorting Algorithms, Pointers, Dynamic Memory Allocation and Data Structures thanks to HarvardX CS50’s Introduction to Computer Science. Currently studying algorithmic problems. Ready to relocate anywhere.            
+            Retired poker player, semi-retired cook, full stack engineer at your service with the MERN (MongoDB, Express, ReactJS, NodeJS), the Express Handlebars, MySQL, React hooks, ORM, CSS3, the works. Learning computer science for the independence of relying on only myself whenever I want to create anything and to be a part of platforms/entertainment/education/etc reaching millions. If a FANG or an amusing company of my liking goes down, let’s just rebuild it. More personally, having started to re-learn “living” 2.5 years ago (900 note entries without skipping steps), clarity on technology is very nice. Graduate of a 12-week intensive bootcamp, with C language experience in Sorting Algorithms, Pointers, Dynamic Memory Allocation and Data Structures thanks to HarvardX CS50’s Introduction to Computer Science. Currently studying algorithmic problems and Java language. Ready to relocate anywhere.          
             </p>
         </div>
 
