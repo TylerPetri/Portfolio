@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.02533922.chunk.css",
-    "main.js": "/Portfolio/static/js/main.8fb1725f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.8fb1725f.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.7047644f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7047644f.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.554e0ebb.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.554e0ebb.js.map",
     "static/js/2.52f1c311.chunk.js": "/Portfolio/static/js/2.52f1c311.chunk.js",
@@ -17,12 +17,12 @@
     "static/media/budget.9ec98881.PNG": "/Portfolio/static/media/budget.9ec98881.PNG",
     "static/media/burgers.17623611.PNG": "/Portfolio/static/media/burgers.17623611.PNG",
     "static/media/facebook.5db9e6e7.PNG": "/Portfolio/static/media/facebook.5db9e6e7.PNG",
-    "static/media/resume.5909047b.pdf": "/Portfolio/static/media/resume.5909047b.pdf"
+    "static/media/resume.d307660e.pdf": "/Portfolio/static/media/resume.d307660e.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.554e0ebb.js",
     "static/js/2.52f1c311.chunk.js",
     "static/css/main.02533922.chunk.css",
-    "static/js/main.8fb1725f.chunk.js"
+    "static/js/main.7047644f.chunk.js"
   ]
 }
