@@ -32,6 +32,9 @@ function Homepage() {
             <a className="dev" href="#top">Tyler Dev</a>
             <div className="directory">
                 <div className="nav-item">
+                    <a className="nav-link" href="#bio">Bio</a>
+                </div>
+                <div className="nav-item">
                     <a className="nav-link" href={resume} target="_blank" rel="noreferrer">Resume</a>
                 </div>
                 <div className="nav-item">
@@ -42,14 +45,14 @@ function Homepage() {
 
         <section className="intro">
             <h1 className="section-title title-intro">Hi, I'm <span>Tyler Petri</span></h1>
-            <p className="subtitle subtitle-intro">Web Development</p>
+            <p className="subtitle subtitle-intro" id="bio">Web Development</p>
             <img src={mainImg} alt="Profile" className="my-pic"/>
         </section>
 
         <div className="bioBox">
             <h3 className="bioTitle">About me</h3>
             <p>
-            Retired poker player, semi-retired cook, full stack engineer at your service with the MERN (MongoDB, Express, ReactJS, NodeJS), the Express Handlebars, MySQL, React hooks, ORM, CSS3, the works. Learning computer science for the independence of relying on only myself whenever I want to create anything and to be a part of platforms/entertainment/education/etc reaching millions. If a FANG or an amusing company of my liking goes down, let’s just rebuild it. More personally, having started to re-learn “living” 2.5 years ago (900 note entries without skipping steps), clarity on technology is very nice. Graduate of a 12-week intensive bootcamp, with C language experience in Sorting Algorithms, Pointers, Dynamic Memory Allocation and Data Structures thanks to HarvardX CS50’s Introduction to Computer Science. Currently studying algorithmic problems and Java language. Ready to relocate anywhere.          
+            Retired poker player, semi-retired cook, full stack engineer at your service with the MERN (MongoDB, Express, ReactJS, NodeJS), the Express Handlebars, MySQL, React hooks, ORM, CSS3, the works. Learning computer science for the independence of relying on only myself whenever I want to create anything and to be a part of platforms, entertainment, education, etc. If a FANG or an amusing company of my liking goes down, let’s just rebuild it. More personally, having started to re-learn “living” 2.5 years ago (900 note entries without skipping steps), clarity on technology is very nice. Graduate of a 12-week intensive bootcamp, with C language experience in Sorting Algorithms, Pointers, Dynamic Memory Allocation and Data Structures thanks to HarvardX CS50’s Introduction to Computer Science. Currently studying algorithmic problems and Java language. Ready to relocate anywhere.          
             </p>
         </div>
 
