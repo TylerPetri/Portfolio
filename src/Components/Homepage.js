@@ -6,6 +6,7 @@ import btpic from '../assets/images/budget.PNG'
 import burgers from '../assets/images/burgers.PNG'
 import googlebooks from '../assets/images/GoogleBooks.PNG'
 import TPG from '../assets/images/TeamProfileGenerator.PNG'
+import news5000 from '../assets/images/news5000.PNG'
 import resume from '../assets/resume/resume.pdf'
 import {FaGithub, FaReact} from 'react-icons/fa'
 import {DiJavascript1} from 'react-icons/di'
@@ -124,6 +125,17 @@ function Homepage() {
                     </a>
                 </div>
                 <div className="work">
+                    <a href='https://news5000.herokuapp.com/' target="_blank" rel="noreferrer">
+                        <img src={news5000} alt="news5000-app"/>
+                        <h4>Java Spring-boot MySQL API</h4>
+                        <p>Link sharing Java Full Stack Spring-boot app. Fake news, new news, login and post! Includes personal post dashboard viewing and a homepage with no bounds</p>
+                        <div className="gitappLinks">
+                            <a href='https://github.com/TylerPetri/tech-news-java-api.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
+                            <a href='https://news5000.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
+                        </div>
+                    </a>
+                </div>
+                <div className="work">
                     <a href='https://mood-notes-tracker.herokuapp.com/' target="_blank" rel="noreferrer">
                         <img src={mtgif} alt="mood-tracker"/>
                         <h4>Full stack restful API & mySQL </h4>
@@ -176,17 +188,6 @@ function Homepage() {
                         <div className="gitappLinks">
                             <a href='https://github.com/TylerPetri/Employee-Directory.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
                             <a href='https://tylerpetri.github.io/Employee-Directory/' target="_blank" rel="noreferrer" className="gitlink">App</a>
-                        </div>
-                    </a>
-                </div>
-                <div className="work">
-                    <a href='https://budget-tracker2000.herokuapp.com' target="_blank" rel="noreferrer">
-                        <img src={btpic} alt="budget-tracker"/>
-                        <h4>Service worker, IndexedDB & Mongoose</h4>
-                        <p>Can I afford another coffee? Probably! Time to check the budget tracker 2000! Enter a name, a value, and selected whether it's an expense or deposit!</p>
-                        <div className="gitappLinks">
-                            <a href='https://github.com/TylerPetri/Budget-tracker2000.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
-                            <a href='https://budget-tracker2000.herokuapp.com' target="_blank" rel="noreferrer" className="gitlink">App</a>
                         </div>
                     </a>
                 </div>
