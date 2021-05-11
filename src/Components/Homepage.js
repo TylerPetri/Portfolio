@@ -106,13 +106,13 @@ function Homepage() {
                     </a>
                 </div>
                 <div className="work">
-                    <a href='https://link-feed-bonanza.herokuapp.com/' target="_blank" rel="noreferrer">
-                        <img src={linkfeed} alt="link-feed-bonanza"/>
-                        <h4>Python Back-End, Flask Jinja2, PyMySQL, Javascript fetch, API</h4>
-                        <p>Link feed bonanza. Post titles, links, upvote... Kind of like reddit</p>
+                    <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer">
+                        <img src={chatch4ngif} alt="chat-platform"/>
+                        <h4>MERN socket.io Chat platform</h4>
+                        <p>Privacy! Nostalgia? Using socket.io, we have realtime chat that don't save messages (don't reload or they're gone). Create any room you like, visit existing rooms... some are surprisingly supernova</p>
                         <div className="gitappLinks">
-                            <a href='https://github.com/TylerPetri/Link-Feed-Python.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
-                            <a href='https://link-feed-bonanza.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
+                            <a href='https://github.com/TylerPetri/chat-platform.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
+                            <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
                         </div>
                     </a>
                 </div>
@@ -128,13 +128,13 @@ function Homepage() {
                     </a>
                 </div>
                 <div className="work">
-                    <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer">
-                        <img src={chatch4ngif} alt="chat-platform"/>
-                        <h4>MERN socket.io Chat platform</h4>
-                        <p>Privacy! Nostalgia? Using socket.io, we have realtime chat that don't save messages (don't reload or they're gone). Create any room you like, visit existing rooms... some are surprisingly supernova</p>
+                    <a href='https://link-feed-bonanza.herokuapp.com/' target="_blank" rel="noreferrer">
+                        <img src={linkfeed} alt="link-feed-bonanza"/>
+                        <h4>Python Back-End, Flask Jinja2, PyMySQL, Javascript fetch, API</h4>
+                        <p>Link feed bonanza. Post titles, links, upvote... Kind of like reddit</p>
                         <div className="gitappLinks">
-                            <a href='https://github.com/TylerPetri/chat-platform.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
-                            <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
+                            <a href='https://github.com/TylerPetri/Link-Feed-Python.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
+                            <a href='https://link-feed-bonanza.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
                         </div>
                     </a>
                 </div>
