@@ -8,9 +8,10 @@ import googlebooks from '../assets/images/GoogleBooks.PNG'
 import TPG from '../assets/images/TeamProfileGenerator.PNG'
 import news5000 from '../assets/images/news5000.PNG'
 import resume from '../assets/resume/resume.pdf'
+import linkfeed from '../assets/images/linkfeedbonanza.PNG'
 import {FaGithub, FaReact} from 'react-icons/fa'
-import {DiJavascript1} from 'react-icons/di'
-import {SiBootstrap, SiMongodb, SiMysql, SiNodeDotJs, SiJquery, SiLinkedin} from 'react-icons/si'
+import {DiJavascript1, DiPython, DiJava} from 'react-icons/di'
+import {SiBootstrap, SiMongodb, SiMysql, SiNodeDotJs, SiJquery, SiLinkedin, SiSpring, SiFlask} from 'react-icons/si'
 import {GiMustache} from 'react-icons/gi'
 import {IoMdOpen} from 'react-icons/io'
 
@@ -59,10 +60,12 @@ function Homepage() {
 
         <div className="languages">
             <FaGithub className="icons"/><DiJavascript1 className="icons"/>
+            <DiPython className="icons"/><DiJava className="icons"/>
             <SiNodeDotJs className="icons"/><FaReact className="icons"/>
-            <SiBootstrap className="icons"/><SiJquery className="icons"/>
-            <SiMongodb className="icons"/><SiMysql className="icons"/>
-            <GiMustache className="icons"/>
+            <SiFlask className="icons"/>
+            <SiSpring className="icons"/><SiMongodb className="icons"/>
+            <SiMysql className="icons"/><SiBootstrap className="icons"/>
+            <SiJquery className="icons"/><GiMustache className="icons"/>
         </div>
 
 
@@ -103,6 +106,28 @@ function Homepage() {
                     </a>
                 </div>
                 <div className="work">
+                    <a href='https://link-feed-bonanza.herokuapp.com/' target="_blank" rel="noreferrer">
+                        <img src={linkfeed} alt="link-feed-bonanza"/>
+                        <h4>Python Back-End, Flask Jinja2, PyMySQL, Javascript fetch, API</h4>
+                        <p>Link feed bonanza. Post titles, links, upvote... Kind of like reddit</p>
+                        <div className="gitappLinks">
+                            <a href='https://github.com/TylerPetri/Link-Feed-Python.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
+                            <a href='https://link-feed-bonanza.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
+                        </div>
+                    </a>
+                </div>
+                <div className="work">
+                    <a href='https://news5000.herokuapp.com/' target="_blank" rel="noreferrer">
+                        <img src={news5000} alt="news5000-app"/>
+                        <h4>Java Spring-boot MySQL API</h4>
+                        <p>Link sharing Java Full Stack Spring-boot app. Fake news, new news, login and post! Includes personal post dashboard viewing and a homepage with no bounds</p>
+                        <div className="gitappLinks">
+                            <a href='https://github.com/TylerPetri/tech-news-java-api.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
+                            <a href='https://news5000.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
+                        </div>
+                    </a>
+                </div>
+                <div className="work">
                     <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer">
                         <img src={chatch4ngif} alt="chat-platform"/>
                         <h4>MERN socket.io Chat platform</h4>
@@ -121,17 +146,6 @@ function Homepage() {
                         <div className="gitappLinks">
                             <a href='https://github.com/TylerPetri/burger.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
                             <a href='https://glacial-taiga-08008.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
-                        </div>
-                    </a>
-                </div>
-                <div className="work">
-                    <a href='https://news5000.herokuapp.com/' target="_blank" rel="noreferrer">
-                        <img src={news5000} alt="news5000-app"/>
-                        <h4>Java Spring-boot MySQL API</h4>
-                        <p>Link sharing Java Full Stack Spring-boot app. Fake news, new news, login and post! Includes personal post dashboard viewing and a homepage with no bounds</p>
-                        <div className="gitappLinks">
-                            <a href='https://github.com/TylerPetri/tech-news-java-api.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
-                            <a href='https://news5000.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
                         </div>
                     </a>
                 </div>
