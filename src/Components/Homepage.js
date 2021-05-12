@@ -54,7 +54,7 @@ function Homepage() {
         <div className="bioBox">
             <h3 className="bioTitle">About me</h3>
             <p>
-            Excited for this world of passion and to produce amusing products of innovation. Dedicated to Computer Science with high communication skills for collaborative success. Graduate of a 12-week intensive Web Development bootcamp with advanced skills in Javascript, Java/Python entry level skills, and C language experience courtesy of HarvardX CS50’s Introduction to Computer Science. Adaptable and ready to relocate anywhere.
+            Excited for this world of passion and to produce amusing products of innovation. Dedicated to Computer Science with fabulous communication skills for collaborative success. Graduate of a 12-week intensive Web Development bootcamp with advanced skills in Javascript, Java/Python entry level skills, and C language experience courtesy of HarvardX CS50’s Introduction to Computer Science. Adaptable and ready to relocate anywhere.
             </p>
         </div>
 
