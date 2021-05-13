@@ -84,24 +84,24 @@ function Homepage() {
                     </a>
                 </div>
                 <div className="work">
-                    <a href='https://github.com/TylerPetri/Sorting-Visualizer' target="_blank" rel="noreferrer">
+                    <a href='https://tylerpetri.github.io/Sorting-Visualizer/' target="_blank" rel="noreferrer">
                         <img src={sorting} alt="sorting-visualizer"/>
                         <h4>Sorting Algorithms Visualized</h4>
                         <p>Simple Sorting Visualizer. Generate a new array and select the sorting algorithm you wish to visualize!</p>
                         <div className="gitappLinks">
                             <a href='https://github.com/TylerPetri/Sorting-Visualizer.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
-                            <a href='https://github.com/TylerPetri/Sorting-Visualizer' target="_blank" rel="noreferrer" className="gitlink">App</a>
+                            <a href='https://tylerpetri.github.io/Sorting-Visualizer/' target="_blank" rel="noreferrer" className="gitlink">App</a>
                         </div>
                     </a>
                 </div>
                 <div className="work">
-                <a href='tylerpetri.github.io/snake-game/' target="_blank" rel="noreferrer">
+                <a href='https://tylerpetri.github.io/Snake-Game/' target="_blank" rel="noreferrer">
                         <img src={snakegif} alt="snake-game"/>
                         <h4>Reverse Linked-List Snake game React app</h4>
                         <p>Use the arrow keys to eat apples and grow! Going backwards or hitting the walls is GAMEOVER! Red apples keep the current direction, purple apples reverse the linked list!</p>
                         <div className="gitappLinks">
                             <a href='https://github.com/TylerPetri/Snake-Game.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
-                            <a href='tylerpetri.github.io/snake-game/' target="_blank" rel="noreferrer" className="gitlink">App</a>
+                            <a href='https://tylerpetri.github.io/Snake-Game/' target="_blank" rel="noreferrer" className="gitlink">App</a>
                         </div>
                     </a>
                 </div>
@@ -116,7 +116,7 @@ function Homepage() {
                         </div>
                     </a>
                 </div>
-                <div className="work">
+                {/* <div className="work">
                     <a href='https://news5000.herokuapp.com/' target="_blank" rel="noreferrer">
                         <img src={news5000} alt="news5000-app"/>
                         <h4>Java Spring-boot MySQL API</h4>
@@ -126,7 +126,7 @@ function Homepage() {
                             <a href='https://news5000.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
                         </div>
                     </a>
-                </div>
+                </div> */}
                 <div className="work">
                     <a href='https://link-feed-bonanza.herokuapp.com/' target="_blank" rel="noreferrer">
                         <img src={linkfeed} alt="link-feed-bonanza"/>
