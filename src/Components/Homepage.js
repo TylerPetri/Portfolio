@@ -21,7 +21,7 @@ const gmegif = 'https://media.giphy.com/media/hugobaXy6ktDaEX3Oq/giphy.gif'
 const mailto = "mailto:tylerpetri@hotmail.com"
 const linkedin = "https://www.linkedin.com/in/tyler-petri-051155206/"
 const github = "https://github.com/TylerPetri"
-const chatch4ngif = 'https://media.giphy.com/media/YNy9NsmSvakoXoTi3L/giphy.gif'
+const chatch4ngif = 'https://media.giphy.com/media/mY6qoBxHWloyoUc2sn/giphy.gif'
 const snakegif = 'https://media.giphy.com/media/w9mfy63BHgH9uozYhL/giphy.gif'
 const sorting = 'https://media.giphy.com/media/SyCrzY7OdXGAz3F9v2/giphy.gif'
 
@@ -97,6 +97,17 @@ function Homepage() {
                     </a>
                 </div>
                 <div className="work">
+                    <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer">
+                        <img src={chatch4ngif} alt="chat-platform"/>
+                        <h4>MERN socket.io Chat platform</h4>
+                        <p>Real-time chat rooms with a few surprises. Includes snake game!</p>
+                        <div className="gitappLinks">
+                            <a href='https://github.com/TylerPetri/chat-platform.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
+                            <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
+                        </div>
+                    </a>
+                </div>
+                <div className="work">
                 <a href='https://tylerpetri.github.io/Snake-Game/' target="_blank" rel="noreferrer">
                         <img src={snakegif} alt="snake-game"/>
                         <h4>Reverse Linked-List Snake game React app</h4>
@@ -104,17 +115,6 @@ function Homepage() {
                         <div className="gitappLinks">
                             <a href='https://github.com/TylerPetri/Snake-Game.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
                             <a href='https://tylerpetri.github.io/Snake-Game/' target="_blank" rel="noreferrer" className="gitlink">App</a>
-                        </div>
-                    </a>
-                </div>
-                <div className="work">
-                    <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer">
-                        <img src={chatch4ngif} alt="chat-platform"/>
-                        <h4>MERN socket.io Chat platform</h4>
-                        <p>Real-time chat rooms with a few surprises.</p>
-                        <div className="gitappLinks">
-                            <a href='https://github.com/TylerPetri/chat-platform.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
-                            <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
                         </div>
                     </a>
                 </div>
