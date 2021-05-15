@@ -76,7 +76,9 @@ function Homepage() {
                     <a href='https://googlebooksapi9000.herokuapp.com/' target="_blank" rel="noreferrer">
                         <img src={googlebooks} alt="google-books-search"/>
                         <h4>MERN, API, Bcrypt, JWT, Google Books search app</h4>
-                        <p>Ever wanted to search for a book through google with a youtube inspired navbar? Tadda! Googlebooksapi9000: signin, save books for later, delete some, or click the "view more details" link and be redirected to an understandibly less stylish/less cpu consuming website to do what you desire.</p>
+                        <p> Google Books API search using a stylish user-interface, displaying titles, 
+                            images, descriptions and links to the books. Signin for personal bookmarking.
+                        </p>
                         <div className="gitappLinks">
                             <a href='https://github.com/TylerPetri/Google-books-search.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
                             <a href='https://googlebooksapi9000.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
@@ -87,7 +89,7 @@ function Homepage() {
                     <a href='https://tylerpetri.github.io/Sorting-Visualizer/' target="_blank" rel="noreferrer">
                         <img src={sorting} alt="sorting-visualizer"/>
                         <h4>Sorting Algorithms Visualized</h4>
-                        <p>Simple Sorting Visualizer. Generate a new array and select the sorting algorithm you wish to visualize!</p>
+                        <p>Generate a new array and select the sorting algorithm you wish to visualize!</p>
                         <div className="gitappLinks">
                             <a href='https://github.com/TylerPetri/Sorting-Visualizer.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
                             <a href='https://tylerpetri.github.io/Sorting-Visualizer/' target="_blank" rel="noreferrer" className="gitlink">App</a>
@@ -98,7 +100,7 @@ function Homepage() {
                 <a href='https://tylerpetri.github.io/Snake-Game/' target="_blank" rel="noreferrer">
                         <img src={snakegif} alt="snake-game"/>
                         <h4>Reverse Linked-List Snake game React app</h4>
-                        <p>Use the arrow keys to eat apples and grow! Going backwards or hitting the walls is GAMEOVER! Red apples keep the current direction, purple apples reverse the linked list!</p>
+                        <p>Animated linked-list game where you must stay inside the grid and can consume red blocks for points. Purple blocks reverse the list animation!</p>
                         <div className="gitappLinks">
                             <a href='https://github.com/TylerPetri/Snake-Game.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
                             <a href='https://tylerpetri.github.io/Snake-Game/' target="_blank" rel="noreferrer" className="gitlink">App</a>
@@ -109,7 +111,7 @@ function Homepage() {
                     <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer">
                         <img src={chatch4ngif} alt="chat-platform"/>
                         <h4>MERN socket.io Chat platform</h4>
-                        <p>Privacy! Nostalgia? Using socket.io, we have realtime chat that don't save messages (don't reload or they're gone). Create any room you like, visit existing rooms... some are surprisingly supernova</p>
+                        <p>Real-time chat rooms with a few surprises.</p>
                         <div className="gitappLinks">
                             <a href='https://github.com/TylerPetri/chat-platform.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
                             <a href='https://chatch4n.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
@@ -153,7 +155,7 @@ function Homepage() {
                     <a href='https://mood-notes-tracker.herokuapp.com/' target="_blank" rel="noreferrer">
                         <img src={mtgif} alt="mood-tracker"/>
                         <h4>Full stack restful API & mySQL </h4>
-                        <p>Mood tracker! Login, create a note (prompted if not logged-in, too many characters, etc), check your latest notes (edit, delete) and view data on calendar or donut graph! </p>
+                        <p>Login, create a note, edit or delete notes and view mood data on calendar or donut graph! </p>
                         <p>Note: heroku bug regarding mySQL date feature</p>
                         <div className="gitappLinks">
                             <a href='https://github.com/Humble-Attackers/Group-Mood-Tracker.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
@@ -165,7 +167,7 @@ function Homepage() {
                     <a href='https://www.youtube.com/watch?v=VTN-o95zSMI&t=8s' target="_blank" rel="noreferrer">
                         <img src={gif} alt="employee-tracker"/>
                         <h4>Inquirer</h4>
-                        <p>An application to track employee information within a database. There are options such as: adding roles, adding managers, seeing the utilized budget per department, etc.</p>
+                        <p>An application to track employee information. Options: adding roles, adding managers, seeing the utilized budget per department, etc.</p>
                         <div className="gitappLinks">
                             <a href='https://github.com/TylerPetri/Employee-Tracker2.0.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
                             <a href='https://www.youtube.com/watch?v=VTN-o95zSMI&t=8s' target="_blank" rel="noreferrer" className="gitlink">Demo</a>
@@ -209,7 +211,7 @@ function Homepage() {
                     <a href='https://workout-tracker-mongodb5000.herokuapp.com/' target="_blank" rel="noreferrer">
                         <img src={dashboard} alt="workout-tracker"/>
                         <h4>MongoDB</h4>
-                        <p>You want to track your workouts? Maybe fool your loved ones? You can track weights, the name of the exercise, the type, the duration, the reps, the sets, and the distance! All neatly displayed in the dashboard page the the form of various graphs!</p>
+                        <p>You want to track your workouts? Maybe fool your loved ones? You can track weights, the name of the exercise, the type, the duration, the reps, the sets, and the distance!</p>
                         <div className="gitappLinks">
                             <a href='https://github.com/TylerPetri/Workout-Tracker-MongoDB.git' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
                             <a href='https://workout-tracker-mongodb5000.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
