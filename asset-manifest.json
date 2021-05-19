@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.9105d845.chunk.css",
-    "main.js": "/Portfolio/static/js/main.49b329ae.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.49b329ae.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.e6e2b1b6.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e6e2b1b6.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.554e0ebb.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.554e0ebb.js.map",
     "static/js/2.c61e84a5.chunk.js": "/Portfolio/static/js/2.c61e84a5.chunk.js",
@@ -19,12 +19,12 @@
     "static/media/facebook.5db9e6e7.PNG": "/Portfolio/static/media/facebook.5db9e6e7.PNG",
     "static/media/linkfeedbonanza.c5de35c8.PNG": "/Portfolio/static/media/linkfeedbonanza.c5de35c8.PNG",
     "static/media/news5000.1ecaf822.PNG": "/Portfolio/static/media/news5000.1ecaf822.PNG",
-    "static/media/resume.d050c269.pdf": "/Portfolio/static/media/resume.d050c269.pdf"
+    "static/media/resume.f3a1a6c3.pdf": "/Portfolio/static/media/resume.f3a1a6c3.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.554e0ebb.js",
     "static/js/2.c61e84a5.chunk.js",
     "static/css/main.9105d845.chunk.css",
-    "static/js/main.49b329ae.chunk.js"
+    "static/js/main.e6e2b1b6.chunk.js"
   ]
 }
