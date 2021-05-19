@@ -54,7 +54,9 @@ function Homepage() {
         <div className="bioBox">
             <h3 className="bioTitle">About me</h3>
             <p>
-            Excited for this world of passion and to produce amusing products of innovation. Dedicated to Computer Science with fabulous communication skills for collaborative success. Graduate of a 12-week intensive Web Development bootcamp with advanced skills in Javascript, Java/Python entry level skills, and C language experience courtesy of HarvardX CS50’s Introduction to Computer Science. Adaptable and ready to relocate anywhere.
+            A Web Developer enjoying the problem-solving and looking forward to fun big things in the near future.
+With experience in Mathematics and being around computers most of my days, I'm eager to contribute strong critical thinking and problem-solving to the team through fabulous communication skills!
+These days with the little free time I have from practicing code, I'll be wherever there's life to crack a joke and enjoy the times.
             </p>
         </div>
 
