@@ -211,6 +211,12 @@ img {
 	justify-content: center;
 }
 
+@media (max-width: 650px) {
+	.projects {
+		padding: 0;
+	}
+}
+
 .work {
 	display: block;
 	width: 450px;
