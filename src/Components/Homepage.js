@@ -103,7 +103,6 @@ These days with the little free time I have from practicing code, I'll be wherev
                     <a href='https://paws-chat-app.herokuapp.com/' target="_blank" rel="noreferrer">
                         <img src={publicPaws} alt="paws-mental-health"/>
                         <h4>Paws Mental Health MERN</h4>
-                        <p>A mental health real-time chat website. Speak to psychologists or meet new people in the public chatroom.</p>
                         <div className="gitappLinks">
                             <a href='https://github.com/Better-er-Help/project3' target="_blank" rel="noreferrer" className="gitlink">Github repo</a>
                             <a href='https://paws-chat-app.herokuapp.com/' target="_blank" rel="noreferrer" className="gitlink">App</a>
