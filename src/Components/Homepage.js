@@ -291,13 +291,19 @@ function Homepage() {
             <h1 className='projectsTitle'>Projects</h1>
             <div className='projects'>
               <div className='work'>
-                <a
-                  href='https://googlebooksapi9000.herokuapp.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img src={googlebooks} alt='google-books-search' />
-                </a>
+                <div className='picCont'>
+                  <a
+                    href='https://googlebooksapi9000.herokuapp.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <img
+                      src={googlebooks}
+                      alt='google-books-search'
+                      className='pic'
+                    />
+                  </a>
+                </div>
                 <h4>MERN, API, Bcrypt, JWT, Google Books search app</h4>
                 <p>
                   {' '}
@@ -325,14 +331,20 @@ function Homepage() {
                 </div>
               </div>
               <div className='work'>
-                <a
-                  href='https://tylerpetri.github.io/Sorting-Visualizer/'
-                  target='_blank'
-                  rel='noreferrer'
-                  className='imgLink'
-                >
-                  <img src={sorting} alt='sorting-visualizer' />
-                </a>
+                <div className='picCont'>
+                  <a
+                    href='https://tylerpetri.github.io/Sorting-Visualizer/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='imgLink'
+                  >
+                    <img
+                      src={sorting}
+                      alt='sorting-visualizer'
+                      className='pic'
+                    />
+                  </a>
+                </div>
                 <h4>Sorting Algorithms Visualized</h4>
                 <p>
                   Generate a new array and select the sorting algorithm you wish
@@ -358,14 +370,20 @@ function Homepage() {
                 </div>
               </div>
               <div className='work'>
-                <a
-                  href='https://chatch4n.herokuapp.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                  className='imgLink'
-                >
-                  <img src={chatch4ngif} alt='chat-platform' />
-                </a>
+                <div className='picCont'>
+                  <a
+                    href='https://chatch4n.herokuapp.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='imgLink'
+                  >
+                    <img
+                      src={chatch4ngif}
+                      alt='chat-platform'
+                      className='pic'
+                    />
+                  </a>
+                </div>
                 <h4>MERN socket.io Chat platform</h4>
                 <p>
                   Real-time chat rooms with a few surprises. Includes snake
@@ -392,13 +410,15 @@ function Homepage() {
               </div>
 
               <div className='work'>
-                <a
-                  href='https://glacial-taiga-08008.herokuapp.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img src={burgers} alt='burger-app' />
-                </a>
+                <div className='picCont'>
+                  <a
+                    href='https://glacial-taiga-08008.herokuapp.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <img src={burgers} alt='burger-app' className='pic' />
+                  </a>
+                </div>
                 <h4>Handlebars & mySQL</h4>
                 <p>
                   Want a double double? Type it in the box and submit! Devour or
