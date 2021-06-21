@@ -238,14 +238,12 @@ img {
 .picLongCont {
   width: 500px;
   height: 325px;
-  margin: 0;
   overflow: hidden;
 }
 
 .piclong {
   width: 500px;
   height: 325px;
-  margin: 0;
   transition: 0.3s;
 }
 
