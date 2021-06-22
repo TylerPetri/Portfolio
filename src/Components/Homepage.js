@@ -21,8 +21,8 @@ const mailto = 'mailto:tylerpetri@hotmail.com';
 const linkedin = 'https://www.linkedin.com/in/tyler-petri-051155206/';
 const github = 'https://github.com/TylerPetri';
 const chatch4ngif =
-  'https://media.giphy.com/media/mY6qoBxHWloyoUc2sn/giphy.gif';
-const sorting = 'https://media.giphy.com/media/SyCrzY7OdXGAz3F9v2/giphy.gif';
+  'https://media.giphy.com/media/OkBZtHjfHYtAeMYyMI/giphy.gif';
+const sorting = 'https://media.giphy.com/media/iwP4BHuyZMP7pfQPtr/giphy.gif';
 
 function Homepage() {
   function getWindowDimensions() {
@@ -43,10 +43,6 @@ function Homepage() {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
-
-  function test() {
-    console.log(windowDimensions.width);
-  }
 
   return (
     <>
