@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from 'react';
 import mainImg from '../assets/images/facebook.PNG';
+import selfie from '../assets/images/selfie.jpg';
 import burgers from '../assets/images/burgers.PNG';
 import googlebooks from '../assets/images/GoogleBooks.PNG';
 import resume from '../assets/resume/resume.pdf';
@@ -15,7 +16,7 @@ import {
   SiSpring,
   SiFlask,
 } from 'react-icons/si';
-import { GiMustache } from 'react-icons/gi';
+import { GiMustache, GiHamburgerMenu } from 'react-icons/gi';
 
 const mailto = 'mailto:tylerpetri@hotmail.com';
 const linkedin = 'https://www.linkedin.com/in/tyler-petri-051155206/';
@@ -34,6 +35,7 @@ function Homepage() {
   }
 
   const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions);
+  const [sideNav, setSideNav] = useState(false);
 
   useEffect(() => {
     function handleResize() {
@@ -44,6 +46,14 @@ function Homepage() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  function openNav() {
+    setSideNav(true);
+  }
+
+  function closeNav() {
+    setSideNav(false);
+  }
+
   return (
     <>
       <div id='top'></div>
@@ -52,6 +62,30 @@ function Homepage() {
           <a className='dev' href='#top'>
             Tyler Dev
           </a>
+          <div className='gitLinkedIconsNav'>
+            <ul className='social-list'>
+              <li className='social-item'>
+                <a
+                  href={linkedin}
+                  className='social-link'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <SiLinkedin className='icons' id='purple' />
+                </a>
+              </li>
+              <li className='social-item'>
+                <a
+                  href={github}
+                  className='social-link'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <FaGithub className='icons' id='purple' />
+                </a>
+              </li>
+            </ul>
+          </div>
           <div className='directory'>
             <div className='nav-item'>
               <a className='nav-link' href='#bio'>
@@ -74,6 +108,39 @@ function Homepage() {
               </a>
             </div>
           </div>
+          <div onClick={openNav} className='hamburgerBtn'>
+            <GiHamburgerMenu />
+          </div>
+          <div
+            id='mySidenav'
+            className='sidenav'
+            style={{ width: sideNav ? '175px' : '0' }}
+          >
+            <button className='closebtn' onClick={closeNav}>
+              &times;
+            </button>
+            <div className='nav-item'>
+              <a className='nav-link' href='#bio' onClick={closeNav}>
+                Bio
+              </a>
+            </div>
+            <div className='nav-item'>
+              <a
+                className='nav-link'
+                href={resume}
+                target='_blank'
+                rel='noreferrer'
+                onClick={closeNav}
+              >
+                Resume
+              </a>
+            </div>
+            <div className='nav-item'>
+              <a className='nav-link' href='#footer' onClick={closeNav}>
+                Contact
+              </a>
+            </div>
+          </div>
         </nav>
 
         <section className='intro'>
@@ -83,7 +150,7 @@ function Homepage() {
           <p className='subtitle subtitle-intro' id='bio'>
             Web Development
           </p>
-          <img src={mainImg} alt='Profile' className='my-pic' />
+          <img src={selfie} alt='Profile' className='my-pic' />
         </section>
 
         <div className='bioBox'>
@@ -450,29 +517,7 @@ function Homepage() {
             </a>
             <div className='phone'>(514)566-5383</div>
           </div>
-
-          <ul className='social-list'>
-            <li className='social-item'>
-              <a
-                href={linkedin}
-                className='social-link'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <SiLinkedin className='icons' id='purple' />
-              </a>
-            </li>
-            <li className='social-item'>
-              <a
-                href={github}
-                className='social-link'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <FaGithub className='icons' id='purple' />
-              </a>
-            </li>
-          </ul>
+          <div className='copyright'>@copyright</div>
         </footer>
       </div>
     </>
