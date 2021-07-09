@@ -1,5 +1,4 @@
 import { React, useState, useEffect } from 'react';
-import mainImg from '../assets/images/facebook.PNG';
 import selfie from '../assets/images/selfie.jpg';
 import burgers from '../assets/images/burgers.PNG';
 import googlebooks from '../assets/images/GoogleBooks.PNG';
