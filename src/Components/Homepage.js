@@ -2,6 +2,7 @@ import { React, useState, useEffect } from 'react';
 import selfie from '../assets/images/selfie.jpg';
 import burgers from '../assets/images/burgers.PNG';
 import googlebooks from '../assets/images/GoogleBooks.PNG';
+import awsthoughts from '../assets/images/deepthoughts.PNG';
 import resume from '../assets/resume/resume.pdf';
 import { FaGithub, FaReact } from 'react-icons/fa';
 import { DiJavascript1, DiPython, DiJava } from 'react-icons/di';
@@ -20,8 +21,6 @@ import { GiMustache, GiHamburgerMenu } from 'react-icons/gi';
 const mailto = 'mailto:tylerpetri@hotmail.com';
 const linkedin = 'https://www.linkedin.com/in/tyler-petri-051155206/';
 const github = 'https://github.com/TylerPetri';
-const chatch4ngif =
-  'https://media.giphy.com/media/OkBZtHjfHYtAeMYyMI/giphy.gif';
 const sorting = 'https://media.giphy.com/media/iwP4BHuyZMP7pfQPtr/giphy.gif';
 
 function Homepage() {
@@ -70,7 +69,7 @@ function Homepage() {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <SiLinkedin className='icons' id='purple' />
+                  <SiLinkedin className='navIcons' id='purple' />
                 </a>
               </li>
               <li className='social-item'>
@@ -80,7 +79,7 @@ function Homepage() {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <FaGithub className='icons' id='purple' />
+                  <FaGithub className='navIcons' id='purple' />
                 </a>
               </li>
             </ul>
@@ -230,6 +229,48 @@ function Homepage() {
               </div>
               <div className='worklong'>
                 <div className='process'>
+                  <h4>AWS thoughts</h4>
+                  <p>
+                    A "thoughts board" Reactjs site hosted on AWS EC2 Ubuntu
+                    Nginx, using S3 buckets for image uploads and DynamoDB for
+                    text. Run by pm2. Tested with Insomnia.
+                  </p>
+                  <div className='gitappLinks'>
+                    <a
+                      href='https://github.com/TylerPetri/aws-thought.git'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='gitlink'
+                    >
+                      Github repo
+                    </a>
+                    <a
+                      href='http://18.117.245.156/'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='gitlink'
+                    >
+                      App
+                    </a>
+                  </div>
+                </div>
+                <div className='picLongCont'>
+                  <a
+                    href='http://18.117.245.156/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='imgLink'
+                  >
+                    <img
+                      src={awsthoughts}
+                      alt='aws-thoughts'
+                      className='piclong'
+                    />
+                  </a>
+                </div>
+              </div>
+              <div className='worklong'>
+                <div className='process'>
                   <h4>Sorting Algorithms Visualized</h4>
                   <p>
                     Generate a new array and select the sorting algorithm you
@@ -269,47 +310,7 @@ function Homepage() {
                   </a>
                 </div>
               </div>
-              <div className='worklong'>
-                <div className='process'>
-                  <h4>MERN socket.io Chat platform</h4>
-                  <p>
-                    Real-time chat rooms with a few surprises. Includes snake
-                    game!
-                  </p>
-                  <div className='gitappLinks'>
-                    <a
-                      href='https://github.com/TylerPetri/chat-platform.git'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='gitlink'
-                    >
-                      Github repo
-                    </a>
-                    <a
-                      href='https://chatch4n.herokuapp.com/'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='gitlink'
-                    >
-                      App
-                    </a>
-                  </div>
-                </div>
-                <div className='picLongCont'>
-                  <a
-                    href='https://chatch4n.herokuapp.com/'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='imgLink'
-                  >
-                    <img
-                      src={chatch4ngif}
-                      alt='chat-platform'
-                      className='piclong'
-                    />
-                  </a>
-                </div>
-              </div>
+
               <div className='worklong'>
                 <div className='process'>
                   <h4>Handlebars & mySQL</h4>
@@ -395,6 +396,42 @@ function Homepage() {
               <div className='work'>
                 <div className='picCont'>
                   <a
+                    href='http://18.117.245.156/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='imgLink'
+                  >
+                    <img src={awsthoughts} alt='aws-thoughts' className='pic' />
+                  </a>
+                </div>
+                <h4>AWS thoughts</h4>
+                <p>
+                  A "thoughts board" Reactjs site hosted on AWS EC2 Ubuntu
+                  Nginx, using S3 buckets for image uploads and DynamoDB for
+                  text. Run by pm2. Tested with Insomnia.
+                </p>
+                <div className='gitappLinks'>
+                  <a
+                    href='https://github.com/TylerPetri/aws-thought.git'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='gitlink'
+                  >
+                    Github repo
+                  </a>
+                  <a
+                    href='http://18.117.245.156/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='gitlink'
+                  >
+                    App
+                  </a>
+                </div>
+              </div>
+              <div className='work'>
+                <div className='picCont'>
+                  <a
                     href='https://tylerpetri.github.io/Sorting-Visualizer/'
                     target='_blank'
                     rel='noreferrer'
@@ -423,45 +460,6 @@ function Homepage() {
                   </a>
                   <a
                     href='https://tylerpetri.github.io/Sorting-Visualizer/'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='gitlink'
-                  >
-                    App
-                  </a>
-                </div>
-              </div>
-              <div className='work'>
-                <div className='picCont'>
-                  <a
-                    href='https://chatch4n.herokuapp.com/'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='imgLink'
-                  >
-                    <img
-                      src={chatch4ngif}
-                      alt='chat-platform'
-                      className='pic'
-                    />
-                  </a>
-                </div>
-                <h4>MERN socket.io Chat platform</h4>
-                <p>
-                  Real-time chat rooms with a few surprises. Includes snake
-                  game!
-                </p>
-                <div className='gitappLinks'>
-                  <a
-                    href='https://github.com/TylerPetri/chat-platform.git'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='gitlink'
-                  >
-                    Github repo
-                  </a>
-                  <a
-                    href='https://chatch4n.herokuapp.com/'
                     target='_blank'
                     rel='noreferrer'
                     className='gitlink'
