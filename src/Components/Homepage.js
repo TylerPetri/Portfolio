@@ -5,19 +5,21 @@ import googlebooks from '../assets/images/GoogleBooks.PNG';
 import awsthoughts from '../assets/images/deepthoughts.PNG';
 import resume from '../assets/resume/resume.pdf';
 import { FaGithub, FaReact } from 'react-icons/fa';
-import { DiJavascript1, DiPython, DiJava } from 'react-icons/di';
+import { DiJavascript1 } from 'react-icons/di';
 import {
+  SiAmazonaws,
+  SiMaterialUi,
   SiBootstrap,
   SiMongodb,
   SiMysql,
   SiNodeDotJs,
   SiJquery,
   SiLinkedin,
-  SiSpring,
-  SiFlask,
 } from 'react-icons/si';
 import { GiMustache, GiHamburgerMenu } from 'react-icons/gi';
 
+const googlebooksgif =
+  'https://media.giphy.com/media/7RfKm5aARV8pN9yK2m/giphy.gif';
 const mailto = 'mailto:tylerpetri@hotmail.com';
 const linkedin = 'https://www.linkedin.com/in/tyler-petri-051155206/';
 const github = 'https://github.com/TylerPetri';
@@ -167,73 +169,35 @@ function Homepage() {
         <div className='languages'>
           <FaGithub className='icons' />
           <DiJavascript1 className='icons' />
-          <DiPython className='icons' />
-          <DiJava className='icons' />
           <SiNodeDotJs className='icons' />
           <FaReact className='icons' />
-          <SiFlask className='icons' />
-          <SiSpring className='icons' />
+          <SiAmazonaws className='icons' />
           <SiMongodb className='icons' />
           <SiMysql className='icons' />
+          <SiMaterialUi className='icons' />
           <SiBootstrap className='icons' />
           <SiJquery className='icons' />
           <GiMustache className='icons' />
         </div>
-        {windowDimensions.width > 885 ? (
+        {windowDimensions.width > 999 ? (
           <section>
             <h1 className='projectsTitle'>Projects</h1>
             <div className='projects'>
               <div className='worklong'>
                 <div className='process'>
-                  <h4>MERN, API, Bcrypt, JWT, Google Books search app</h4>
-                  <p>
-                    {' '}
-                    Google Books API search using a stylish user-interface,
-                    displaying titles, images, descriptions and links to the
-                    books. Signin for personal bookmarking.
-                  </p>
-
-                  <div className='gitappLinks'>
-                    <a
-                      href='https://github.com/TylerPetri/Google-books-search.git'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='gitlink'
-                    >
-                      Github repo
-                    </a>
-                    <a
-                      href='https://googlebooksapi9000.herokuapp.com/'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='gitlink'
-                    >
-                      App
-                    </a>
-                  </div>
-                </div>
-                <div className='picLongCont'>
-                  <a
-                    href='https://googlebooksapi9000.herokuapp.com/'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='imgLink'
-                  >
-                    <img
-                      src={googlebooks}
-                      alt='google-books-search'
-                      className='piclong'
-                    ></img>
-                  </a>
-                </div>
-              </div>
-              <div className='worklong'>
-                <div className='process'>
                   <h4>AWS thoughts</h4>
-                  <p>
-                    A "thoughts board" Reactjs site hosted on AWS EC2 Ubuntu
-                    Nginx, using S3 buckets for image uploads and DynamoDB for
-                    text. Run by pm2. Tested with Insomnia.
+                  <p style={{ height: '200px' }}>
+                    <ul>
+                      <li>
+                        Developed a full stack message board in Reactjs,
+                        allowing image and text upload capabilities.
+                      </li>
+                      <li>
+                        Utilizing AWS, S3 for image bucket, DynamoDB for text
+                        and EC2 Ubuntu Nginx pm2 for hosting.
+                      </li>
+                      <li>Tested with Insomnia.</li>
+                    </ul>
                   </p>
                   <div className='gitappLinks'>
                     <a
@@ -269,6 +233,55 @@ function Homepage() {
                   </a>
                 </div>
               </div>
+              <div className='worklong'>
+                <div className='process'>
+                  <h4>MERN, API, Bcrypt, JWT, Google Books search app</h4>
+                  <p style={{ height: '88px' }}>
+                    {' '}
+                    <ul>
+                      <li>
+                        Developed a UI for the google books search API with
+                        user-authentication by incorporating MongoDB & animation
+                        with vantajs. A Reactjs app.
+                      </li>
+                    </ul>
+                  </p>
+
+                  <div className='gitappLinks'>
+                    <a
+                      href='https://github.com/TylerPetri/Google-books-search.git'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='gitlink'
+                    >
+                      Github repo
+                    </a>
+                    <a
+                      href='https://googlebooksapi9000.herokuapp.com/'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='gitlink'
+                    >
+                      App
+                    </a>
+                  </div>
+                </div>
+                <div className='picLongCont'>
+                  <a
+                    href='https://googlebooksapi9000.herokuapp.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='imgLink'
+                  >
+                    <img
+                      src={googlebooksgif}
+                      alt='google-books-search'
+                      className='piclong'
+                    ></img>
+                  </a>
+                </div>
+              </div>
+
               <div className='worklong'>
                 <div className='process'>
                   <h4>Sorting Algorithms Visualized</h4>
@@ -356,46 +369,6 @@ function Homepage() {
               <div className='work'>
                 <div className='picCont'>
                   <a
-                    href='https://googlebooksapi9000.herokuapp.com/'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <img
-                      src={googlebooks}
-                      alt='google-books-search'
-                      className='pic'
-                    />
-                  </a>
-                </div>
-                <h4>MERN, API, Bcrypt, JWT, Google Books search app</h4>
-                <p>
-                  {' '}
-                  Google Books API search using a stylish user-interface,
-                  displaying titles, images, descriptions and links to the
-                  books. Signin for personal bookmarking.
-                </p>
-                <div className='gitappLinks'>
-                  <a
-                    href='https://github.com/TylerPetri/Google-books-search.git'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='gitlink'
-                  >
-                    Github repo
-                  </a>
-                  <a
-                    href='https://googlebooksapi9000.herokuapp.com/'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='gitlink'
-                  >
-                    App
-                  </a>
-                </div>
-              </div>
-              <div className='work'>
-                <div className='picCont'>
-                  <a
                     href='http://18.117.245.156/'
                     target='_blank'
                     rel='noreferrer'
@@ -406,9 +379,17 @@ function Homepage() {
                 </div>
                 <h4>AWS thoughts</h4>
                 <p>
-                  A "thoughts board" Reactjs site hosted on AWS EC2 Ubuntu
-                  Nginx, using S3 buckets for image uploads and DynamoDB for
-                  text. Run by pm2. Tested with Insomnia.
+                  <ul>
+                    <li>
+                      Developed a full stack message board in Reactjs, allowing
+                      image and text upload capabilities.
+                    </li>
+                    <li>
+                      Utilizing AWS, S3 for image bucket, DynamoDB for text and
+                      EC2 Ubuntu Nginx pm2 for hosting.
+                    </li>
+                    <li>Tested with Insomnia.</li>
+                  </ul>
                 </p>
                 <div className='gitappLinks'>
                   <a
@@ -429,6 +410,51 @@ function Homepage() {
                   </a>
                 </div>
               </div>
+              <div className='work'>
+                <div className='picCont'>
+                  <a
+                    href='https://googlebooksapi9000.herokuapp.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <img
+                      src={googlebooksgif}
+                      alt='google-books-search'
+                      className='pic'
+                    />
+                  </a>
+                </div>
+                <h4>MERN, API, Bcrypt, JWT, Google Books search app</h4>
+                <p>
+                  {' '}
+                  <ul>
+                    <li>
+                      Developed a UI for the google books search API with
+                      user-authentication by incorporating MongoDB & animation
+                      with vantajs. A Reactjs app.
+                    </li>
+                  </ul>
+                </p>
+                <div className='gitappLinks'>
+                  <a
+                    href='https://github.com/TylerPetri/Google-books-search.git'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='gitlink'
+                  >
+                    Github repo
+                  </a>
+                  <a
+                    href='https://googlebooksapi9000.herokuapp.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='gitlink'
+                  >
+                    App
+                  </a>
+                </div>
+              </div>
+              f
               <div className='work'>
                 <div className='picCont'>
                   <a
@@ -468,7 +494,6 @@ function Homepage() {
                   </a>
                 </div>
               </div>
-
               <div className='work'>
                 <div className='picCont'>
                   <a
