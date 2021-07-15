@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9db9d164.chunk.css",
+    "main.css": "/Portfolio/static/css/main.70786206.chunk.css",
     "main.js": "/Portfolio/static/js/main.eb1cb95e.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.eb1cb95e.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.554e0ebb.js",
@@ -8,7 +8,7 @@
     "static/js/2.61c8ae6d.chunk.js": "/Portfolio/static/js/2.61c8ae6d.chunk.js",
     "static/js/2.61c8ae6d.chunk.js.map": "/Portfolio/static/js/2.61c8ae6d.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.9db9d164.chunk.css.map": "/Portfolio/static/css/main.9db9d164.chunk.css.map",
+    "static/css/main.70786206.chunk.css.map": "/Portfolio/static/css/main.70786206.chunk.css.map",
     "static/js/2.61c8ae6d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.61c8ae6d.chunk.js.LICENSE.txt",
     "static/media/GoogleBooks.7589f0b6.PNG": "/Portfolio/static/media/GoogleBooks.7589f0b6.PNG",
     "static/media/burgers.17623611.PNG": "/Portfolio/static/media/burgers.17623611.PNG",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.554e0ebb.js",
     "static/js/2.61c8ae6d.chunk.js",
-    "static/css/main.9db9d164.chunk.css",
+    "static/css/main.70786206.chunk.css",
     "static/js/main.eb1cb95e.chunk.js"
   ]
 }
