@@ -61,12 +61,15 @@ img {
   left: 0;
 }
 
+.gitLinkedIconsNav {
+  margin-top: 8px;
+}
+
 .navIcons {
   width: 50px;
   height: 50px;
-  border-radius: 10px;
-  padding: 5px;
-  margin: 0 5px;
+  padding: 0 5px;
+  margin: 5px;
 }
 
 .navIcons:hover {
