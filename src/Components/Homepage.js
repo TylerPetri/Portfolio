@@ -454,7 +454,7 @@ function Homepage() {
                   </a>
                 </div>
               </div>
-              f
+
               <div className='work'>
                 <div className='picCont'>
                   <a
