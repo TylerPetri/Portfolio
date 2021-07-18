@@ -1,7 +1,5 @@
 import { React, useState, useEffect } from 'react';
 import selfie from '../assets/images/selfie.jpg';
-import burgers from '../assets/images/burgers.PNG';
-import googlebooks from '../assets/images/GoogleBooks.PNG';
 import awsthoughts from '../assets/images/deepthoughts.PNG';
 import resume from '../assets/resume/resume.pdf';
 import { FaGithub, FaReact } from 'react-icons/fa';
@@ -24,6 +22,7 @@ const mailto = 'mailto:tylerpetri@hotmail.com';
 const linkedin = 'https://www.linkedin.com/in/tyler-petri-051155206/';
 const github = 'https://github.com/TylerPetri';
 const sorting = 'https://media.giphy.com/media/iwP4BHuyZMP7pfQPtr/giphy.gif';
+const AWSform = 'https://media.giphy.com/media/sm7fe9FOTpAIbXBmc3/giphy.gif';
 
 function Homepage() {
   function getWindowDimensions() {
@@ -185,6 +184,60 @@ function Homepage() {
             <div className='projects'>
               <div className='worklong'>
                 <div className='process'>
+                  <h4>AWS form application</h4>
+                  <p id='AWSformP'>
+                    <ul>
+                      <li>
+                        A serverless AWS form built in Reactjs using
+                        Material-ui.
+                      </li>
+                      <li>
+                        Hosted on S3 static website, utilizing
+                        API-Gateway/Lambda functions for API calls connecting
+                        front-end and DynamoDB.
+                      </li>
+                      <li>
+                        Using an IAM user, assigning permissions for CORS, S3
+                        and DynamoDB calls.
+                      </li>
+                    </ul>
+                  </p>
+                  <div className='gitappLinks'>
+                    <a
+                      href='https://github.com/TylerPetri/aws-lambda-form.git'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='gitlink'
+                    >
+                      Github repo
+                    </a>
+                    <a
+                      href='http://alf-bp53.s3-website.us-east-2.amazonaws.com/'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='gitlink'
+                    >
+                      App
+                    </a>
+                  </div>
+                </div>
+                <div className='picLongCont'>
+                  <a
+                    href='http://alf-bp53.s3-website.us-east-2.amazonaws.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <img
+                      src={AWSform}
+                      alt='awsform-app'
+                      className='piclong'
+                      id='formGif'
+                    />
+                  </a>
+                </div>
+              </div>
+              <div className='worklong'>
+                <div className='process'>
                   <h4>AWS thoughts</h4>
                   <p style={{ height: '200px' }}>
                     <ul>
@@ -323,49 +376,57 @@ function Homepage() {
                   </a>
                 </div>
               </div>
-
-              <div className='worklong'>
-                <div className='process'>
-                  <h4>Handlebars & mySQL</h4>
-                  <p>
-                    Want a double double? Type it in the box and submit! Devour
-                    or not to devour is now the question.
-                  </p>
-                  <div className='gitappLinks'>
-                    <a
-                      href='https://github.com/TylerPetri/burger.git'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='gitlink'
-                    >
-                      Github repo
-                    </a>
-                    <a
-                      href='https://glacial-taiga-08008.herokuapp.com/'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='gitlink'
-                    >
-                      App
-                    </a>
-                  </div>
-                </div>
-                <div className='picLongCont'>
-                  <a
-                    href='https://glacial-taiga-08008.herokuapp.com/'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <img src={burgers} alt='burger-app' className='piclong' />
-                  </a>
-                </div>
-              </div>
             </div>
           </section>
         ) : (
           <section>
             <h1 className='projectsTitle'>Projects</h1>
             <div className='projects'>
+              <div className='work'>
+                <div className='picCont'>
+                  <a
+                    href='http://alf-bp53.s3-website.us-east-2.amazonaws.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <img src={AWSform} alt='awsform-app' className='pic' />
+                  </a>
+                </div>
+                <h4>AWS form application</h4>
+                <p>
+                  <ul>
+                    <li>
+                      A serverless AWS form built in Reactjs using Material-ui.
+                    </li>
+                    <li>
+                      Hosted on S3 static website, utilizing API-Gateway/Lambda
+                      functions for API calls connecting front-end and DynamoDB.
+                    </li>
+                    <li>
+                      Using an IAM user, assigning permissions for CORS, S3 and
+                      DynamoDB calls.
+                    </li>
+                  </ul>
+                </p>
+                <div className='gitappLinks'>
+                  <a
+                    href='https://github.com/TylerPetri/aws-lambda-form.git'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='gitlink'
+                  >
+                    Github repo
+                  </a>
+                  <a
+                    href='http://alf-bp53.s3-website.us-east-2.amazonaws.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='gitlink'
+                  >
+                    App
+                  </a>
+                </div>
+              </div>
               <div className='work'>
                 <div className='picCont'>
                   <a
@@ -486,40 +547,6 @@ function Homepage() {
                   </a>
                   <a
                     href='https://tylerpetri.github.io/Sorting-Visualizer/'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='gitlink'
-                  >
-                    App
-                  </a>
-                </div>
-              </div>
-              <div className='work'>
-                <div className='picCont'>
-                  <a
-                    href='https://glacial-taiga-08008.herokuapp.com/'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <img src={burgers} alt='burger-app' className='pic' />
-                  </a>
-                </div>
-                <h4>Handlebars & mySQL</h4>
-                <p>
-                  Want a double double? Type it in the box and submit! Devour or
-                  not to devour is now the question.
-                </p>
-                <div className='gitappLinks'>
-                  <a
-                    href='https://github.com/TylerPetri/burger.git'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='gitlink'
-                  >
-                    Github repo
-                  </a>
-                  <a
-                    href='https://glacial-taiga-08008.herokuapp.com/'
                     target='_blank'
                     rel='noreferrer'
                     className='gitlink'

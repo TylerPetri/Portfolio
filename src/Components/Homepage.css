@@ -320,7 +320,7 @@ img {
 .picLongCont {
   height: max-content;
   max-height: 350px;
-  width: max-content;
+  width: 500px;
   overflow: hidden;
 }
 
@@ -332,6 +332,15 @@ img {
 .piclong:hover {
   transform: scale(1.2);
   transition: 0.3s;
+}
+
+#AWSformP {
+  height: max-content;
+  padding: 0 10px;
+}
+
+#formGif {
+  height: 340px;
 }
 
 .picCont {
