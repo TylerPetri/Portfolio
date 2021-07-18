@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.70786206.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c298e07b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c298e07b.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.b3164380.chunk.css",
+    "main.js": "/Portfolio/static/js/main.c85fbc94.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c85fbc94.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.554e0ebb.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.554e0ebb.js.map",
     "static/js/2.61c8ae6d.chunk.js": "/Portfolio/static/js/2.61c8ae6d.chunk.js",
     "static/js/2.61c8ae6d.chunk.js.map": "/Portfolio/static/js/2.61c8ae6d.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.70786206.chunk.css.map": "/Portfolio/static/css/main.70786206.chunk.css.map",
+    "static/css/main.b3164380.chunk.css.map": "/Portfolio/static/css/main.b3164380.chunk.css.map",
     "static/js/2.61c8ae6d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.61c8ae6d.chunk.js.LICENSE.txt",
-    "static/media/GoogleBooks.7589f0b6.PNG": "/Portfolio/static/media/GoogleBooks.7589f0b6.PNG",
-    "static/media/burgers.17623611.PNG": "/Portfolio/static/media/burgers.17623611.PNG",
     "static/media/deepthoughts.932d382c.PNG": "/Portfolio/static/media/deepthoughts.932d382c.PNG",
     "static/media/resume.3e844149.pdf": "/Portfolio/static/media/resume.3e844149.pdf",
     "static/media/selfie.842a615f.jpg": "/Portfolio/static/media/selfie.842a615f.jpg"
@@ -19,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.554e0ebb.js",
     "static/js/2.61c8ae6d.chunk.js",
-    "static/css/main.70786206.chunk.css",
-    "static/js/main.c298e07b.chunk.js"
+    "static/css/main.b3164380.chunk.css",
+    "static/js/main.c85fbc94.chunk.js"
   ]
 }
