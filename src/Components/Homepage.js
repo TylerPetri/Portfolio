@@ -187,6 +187,9 @@ function Homepage() {
                   <h4>AWS form application</h4>
                   <p id='AWSformP'>
                     <ul>
+                      <h3 style={{ margin: '0 0 10px', color: 'orange' }}>
+                        **Curently down: S3 free tier limit reach**{' '}
+                      </h3>
                       <li>
                         A serverless AWS form built in Reactjs using
                         Material-ui.
@@ -196,10 +199,10 @@ function Homepage() {
                         API-Gateway/Lambda functions for API calls connecting
                         front-end and DynamoDB.
                       </li>
-                      <li>
+                      {/* <li>
                         Using an IAM user, assigning permissions for CORS, S3
                         and DynamoDB calls.
-                      </li>
+                      </li> */}
                     </ul>
                   </p>
                   <div className='gitappLinks'>
