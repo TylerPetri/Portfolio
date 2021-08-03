@@ -16,12 +16,13 @@ import {
 } from 'react-icons/si';
 import { GiMustache, GiHamburgerMenu } from 'react-icons/gi';
 
-const googlebooksgif =
-  'https://media.giphy.com/media/7RfKm5aARV8pN9yK2m/giphy.gif';
+const LibraryOfStoriesGIF =
+  'https://media.giphy.com/media/uIJxeF9D8nQPJxrbHQ/giphy.gif';
 const mailto = 'mailto:tylerpetri@hotmail.com';
 const linkedin = 'https://www.linkedin.com/in/tyler-petri-051155206/';
 const github = 'https://github.com/TylerPetri';
-const sorting = 'https://media.giphy.com/media/iwP4BHuyZMP7pfQPtr/giphy.gif';
+const googlebooksgif =
+  'https://media.giphy.com/media/7RfKm5aARV8pN9yK2m/giphy.gif';
 const AWSform = 'https://media.giphy.com/media/sm7fe9FOTpAIbXBmc3/giphy.gif';
 
 function Homepage() {
@@ -184,12 +185,70 @@ function Homepage() {
             <div className='projects'>
               <div className='worklong'>
                 <div className='process'>
+                  <h4>Full Stack Short Story app</h4>
+                  <p style={{ height: 'max-content' }}>
+                    {' '}
+                    <ul>
+                      <li>
+                        Developed a full stack short story publishing/reading
+                        website, including GSAP/loading animation.{' '}
+                      </li>
+                      <li>
+                        DynamoDB used as main database and as session
+                        authentication. Considering Redis/Memcache.{' '}
+                      </li>
+                      <li>
+                        {' '}
+                        Manually debugged through problem solving, adaptation
+                        and organization.
+                      </li>
+                      <li>
+                        Looking into making MongoDB the main database. Adding
+                        features daily.
+                      </li>
+                    </ul>
+                  </p>
+
+                  <div className='gitappLinks'>
+                    <a
+                      href='https://github.com/TylerPetri/De-Fabulis.git'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='gitlink'
+                    >
+                      Github repo
+                    </a>
+                    <a
+                      href='https://library-of-stories.herokuapp.com/'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='gitlink'
+                    >
+                      App
+                    </a>
+                  </div>
+                </div>
+                <div className='picLongCont'>
+                  <a
+                    href='https://library-of-stories.herokuapp.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='imgLink'
+                  >
+                    <img
+                      src={LibraryOfStoriesGIF}
+                      alt='library of stories'
+                      className='piclong'
+                      style={{ marginTop: '50px' }}
+                    ></img>
+                  </a>
+                </div>
+              </div>
+              <div className='worklong'>
+                <div className='process'>
                   <h4>AWS form application</h4>
                   <p id='AWSformP'>
                     <ul>
-                      <h3 style={{ margin: '0 0 10px', color: 'orange' }}>
-                        **Curently down: S3 free tier limit reach**{' '}
-                      </h3>
                       <li>
                         A serverless AWS form built in Reactjs using
                         Material-ui.
@@ -199,10 +258,10 @@ function Homepage() {
                         API-Gateway/Lambda functions for API calls connecting
                         front-end and DynamoDB.
                       </li>
-                      {/* <li>
+                      <li>
                         Using an IAM user, assigning permissions for CORS, S3
                         and DynamoDB calls.
-                      </li> */}
+                      </li>
                     </ul>
                   </p>
                   <div className='gitappLinks'>
@@ -289,6 +348,7 @@ function Homepage() {
                   </a>
                 </div>
               </div>
+
               <div className='worklong'>
                 <div className='process'>
                   <h4>MERN, API, Bcrypt, JWT, Google Books search app</h4>
@@ -337,54 +397,68 @@ function Homepage() {
                   </a>
                 </div>
               </div>
-
-              <div className='worklong'>
-                <div className='process'>
-                  <h4>Sorting Algorithms Visualized</h4>
-                  <p>
-                    Generate a new array and select the sorting algorithm you
-                    wish to visualize!
-                  </p>
-                  <div className='gitappLinks'>
-                    <a
-                      href='https://github.com/TylerPetri/Sorting-Visualizer.git'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='gitlink'
-                    >
-                      Github repo
-                    </a>
-                    <a
-                      href='https://tylerpetri.github.io/Sorting-Visualizer/'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='gitlink'
-                    >
-                      App
-                    </a>
-                  </div>
-                </div>
-                <div className='picLongCont'>
-                  <a
-                    href='https://tylerpetri.github.io/Sorting-Visualizer/'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='imgLink'
-                  >
-                    <img
-                      src={sorting}
-                      alt='sorting-visualizer'
-                      className='piclong'
-                    />
-                  </a>
-                </div>
-              </div>
             </div>
           </section>
         ) : (
           <section>
             <h1 className='projectsTitle'>Projects</h1>
             <div className='projects'>
+              <div className='work'>
+                <div className='picCont'>
+                  <a
+                    href='https://library-of-stories.herokuapp.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <img
+                      src={LibraryOfStoriesGIF}
+                      alt='library of stories'
+                      className='pic'
+                    />
+                  </a>
+                </div>
+                <h4>MERN, API, Bcrypt, JWT, Google Books search app</h4>
+                <p>
+                  {' '}
+                  <ul>
+                    <li>
+                      Developed a full stack short story publishing/reading
+                      website, including GSAP/loading animation.{' '}
+                    </li>
+                    <li>
+                      DynamoDB used as main database and as session
+                      authentication. Considering Redis/Memcache.{' '}
+                    </li>
+                    <li>
+                      {' '}
+                      Manually debugged through problem solving, adaptation and
+                      organization.
+                    </li>
+                    <li>
+                      Looking into making MongoDB the main database. Adding
+                      features daily.
+                    </li>
+                  </ul>
+                </p>
+                <div className='gitappLinks'>
+                  <a
+                    href='https://github.com/TylerPetri/De-Fabulis.git'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='gitlink'
+                  >
+                    Github repo
+                  </a>
+                  <a
+                    href='https://library-of-stories.herokuapp.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='gitlink'
+                  >
+                    App
+                  </a>
+                </div>
+              </div>
               <div className='work'>
                 <div className='picCont'>
                   <a
@@ -510,46 +584,6 @@ function Homepage() {
                   </a>
                   <a
                     href='https://googlebooksapi9000.herokuapp.com/'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='gitlink'
-                  >
-                    App
-                  </a>
-                </div>
-              </div>
-
-              <div className='work'>
-                <div className='picCont'>
-                  <a
-                    href='https://tylerpetri.github.io/Sorting-Visualizer/'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='imgLink'
-                  >
-                    <img
-                      src={sorting}
-                      alt='sorting-visualizer'
-                      className='pic'
-                    />
-                  </a>
-                </div>
-                <h4>Sorting Algorithms Visualized</h4>
-                <p>
-                  Generate a new array and select the sorting algorithm you wish
-                  to visualize!
-                </p>
-                <div className='gitappLinks'>
-                  <a
-                    href='https://github.com/TylerPetri/Sorting-Visualizer.git'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='gitlink'
-                  >
-                    Github repo
-                  </a>
-                  <a
-                    href='https://tylerpetri.github.io/Sorting-Visualizer/'
                     target='_blank'
                     rel='noreferrer'
                     className='gitlink'
