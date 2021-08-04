@@ -36,7 +36,6 @@ function Homepage() {
         };
       }
       setWindowDimensions(getWindowDimensions);
-      console.log(windowDimensions);
     }
 
     window.addEventListener('resize', handleResize);
