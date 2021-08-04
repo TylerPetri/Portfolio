@@ -315,6 +315,7 @@ img {
 
 .process {
   width: 50%;
+  font-size: 14px;
 }
 
 .picLongCont {
@@ -388,7 +389,7 @@ img {
   box-shadow: 0 0 6px pink;
 }
 
-h4 {
+h3 {
   padding: 0 10px;
   text-align: center;
 }
