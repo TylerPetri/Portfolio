@@ -17,7 +17,7 @@ import {
 import { GiMustache, GiHamburgerMenu } from 'react-icons/gi';
 
 const LibraryOfStoriesGIF =
-  'https://media.giphy.com/media/uIJxeF9D8nQPJxrbHQ/giphy.gif';
+  'https://media.giphy.com/media/NlLKtzBgcezrFzYwox/giphy.gif';
 const mailto = 'mailto:tylerpetri@hotmail.com';
 const linkedin = 'https://www.linkedin.com/in/tyler-petri-051155206/';
 const github = 'https://github.com/TylerPetri';
