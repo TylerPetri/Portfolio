@@ -8,7 +8,7 @@ import Shorts from '../Components/shorts';
 import Longs from '../Components/longs';
 
 const LibraryOfStoriesGIF =
-  'https://media.giphy.com/media/NlLKtzBgcezrFzYwox/giphy.gif';
+  'https://media.giphy.com/media/xzLOp7sMSGMCOaNKWd/giphy.gif';
 const mailto = 'mailto:tylerpetri@hotmail.com';
 
 const googlebooksgif =
