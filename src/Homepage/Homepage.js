@@ -47,9 +47,7 @@ function Homepage() {
       <div id='top'></div>
       <div className='boody'>
         <Nav />
-
         <Bio />
-
         <div className='languages'>
           <Icons />
         </div>
