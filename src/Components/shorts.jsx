@@ -15,7 +15,7 @@ export default function Short(props) {
             />
           </a>
         </div>
-        <h4>MERN, API, Bcrypt, JWT, Google Books search app</h4>
+        <h4>Full Stack Short Story app</h4>
         <p>
           {' '}
           <ul>
