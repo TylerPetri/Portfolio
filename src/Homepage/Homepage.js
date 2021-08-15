@@ -37,7 +37,6 @@ function Homepage() {
       }
       setWindowDimensions(getWindowDimensions);
     }
-
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -51,7 +50,7 @@ function Homepage() {
         <div className='languages'>
           <Icons />
         </div>
-        {windowDimensions.width > 999 ? (
+        {windowDimensions.width > 1102 ? (
           <section>
             <h1 className='projectsTitle'>Projects</h1>
             <div className='projects'>

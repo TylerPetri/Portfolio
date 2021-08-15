@@ -375,7 +375,7 @@ img {
   color: pink;
 }
 
-@media (max-width: 1002px) {
+@media (max-width: 1378px) {
   .work {
     height: max-content;
   }
