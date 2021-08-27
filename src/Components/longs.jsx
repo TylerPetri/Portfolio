@@ -107,56 +107,6 @@ export default function Long(props) {
           </a>
         </div>
       </div>
-      <div className='worklong'>
-        <div className='process'>
-          <h4>AWS thoughts</h4>
-          <p style={{ height: '200px' }}>
-            <ul>
-              <li>
-                Developed a full stack message board in Reactjs, allowing image
-                and text upload capabilities.
-              </li>
-              <li>
-                Utilizing AWS, S3 for image bucket, DynamoDB for text and EC2
-                Ubuntu Nginx pm2 for hosting.
-              </li>
-              <li>Tested with Insomnia.</li>
-            </ul>
-          </p>
-          <div className='gitappLinks'>
-            <a
-              href='https://github.com/TylerPetri/aws-thought.git'
-              target='_blank'
-              rel='noreferrer'
-              className='gitlink'
-            >
-              Github repo
-            </a>
-            <a
-              href='http://18.117.245.156/'
-              target='_blank'
-              rel='noreferrer'
-              className='gitlink'
-            >
-              App
-            </a>
-          </div>
-        </div>
-        <div className='picLongCont'>
-          <a
-            href='http://18.117.245.156/'
-            target='_blank'
-            rel='noreferrer'
-            className='imgLink'
-          >
-            <img
-              src={props.awsthoughts}
-              alt='aws-thoughts'
-              className='piclong'
-            />
-          </a>
-        </div>
-      </div>
 
       <div className='worklong'>
         <div className='process'>

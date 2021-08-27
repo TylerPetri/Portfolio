@@ -195,6 +195,8 @@ img {
 
 .my-pic {
   box-shadow: 0 0 5px black;
+  max-height: 400px;
+  margin: 0 auto;
 }
 
 @media (min-width: 970px) {
