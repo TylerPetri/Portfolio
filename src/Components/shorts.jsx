@@ -24,17 +24,13 @@ export default function Short(props) {
               including GSAP/loading animation.{' '}
             </li>
             <li>
-              DynamoDB used as main database and as session authentication.
-              Considering Redis/Memcache.{' '}
+              MongoDB used as main database, utilizing DynamoDB for user info
+              and session authentication.{' '}
             </li>
             <li>
               {' '}
-              Manually debugged through problem solving, adaptation and
-              organization.
-            </li>
-            <li>
-              Looking into making MongoDB the main database. Adding features
-              daily.
+              Utilized Mulder and S3 buckets, allowing image file upload which
+              was tested with Insomnia.
             </li>
           </ul>
         </p>
