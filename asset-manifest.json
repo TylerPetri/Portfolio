@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.009dc288.chunk.css",
-    "main.js": "/Portfolio/static/js/main.b65afeae.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.b65afeae.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.82ae6e34.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.82ae6e34.js.map",
-    "static/js/2.43005e94.chunk.js": "/Portfolio/static/js/2.43005e94.chunk.js",
-    "static/js/2.43005e94.chunk.js.map": "/Portfolio/static/js/2.43005e94.chunk.js.map",
-    "static/js/3.dfa4cb34.chunk.js": "/Portfolio/static/js/3.dfa4cb34.chunk.js",
-    "static/js/3.dfa4cb34.chunk.js.map": "/Portfolio/static/js/3.dfa4cb34.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.8d763704.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a1036416.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a1036416.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.27fbf72a.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.27fbf72a.js.map",
+    "static/js/2.200e422e.chunk.js": "/Portfolio/static/js/2.200e422e.chunk.js",
+    "static/js/2.200e422e.chunk.js.map": "/Portfolio/static/js/2.200e422e.chunk.js.map",
+    "static/js/3.3465f8ce.chunk.js": "/Portfolio/static/js/3.3465f8ce.chunk.js",
+    "static/js/3.3465f8ce.chunk.js.map": "/Portfolio/static/js/3.3465f8ce.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "service-worker.js": "/Portfolio/service-worker.js",
     "service-worker.js.map": "/Portfolio/service-worker.js.map",
-    "static/css/main.009dc288.chunk.css.map": "/Portfolio/static/css/main.009dc288.chunk.css.map",
-    "static/js/2.43005e94.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.43005e94.chunk.js.LICENSE.txt",
+    "static/css/main.8d763704.chunk.css.map": "/Portfolio/static/css/main.8d763704.chunk.css.map",
+    "static/js/2.200e422e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.200e422e.chunk.js.LICENSE.txt",
     "static/media/deepthoughts.932d382c.PNG": "/Portfolio/static/media/deepthoughts.932d382c.PNG",
+    "static/media/move.a1f37b90.PNG": "/Portfolio/static/media/move.a1f37b90.PNG",
     "static/media/resume.776822ed.pdf": "/Portfolio/static/media/resume.776822ed.pdf",
     "static/media/selfie.842a615f.jpg": "/Portfolio/static/media/selfie.842a615f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.82ae6e34.js",
-    "static/js/2.43005e94.chunk.js",
-    "static/css/main.009dc288.chunk.css",
-    "static/js/main.b65afeae.chunk.js"
+    "static/js/runtime-main.27fbf72a.js",
+    "static/js/2.200e422e.chunk.js",
+    "static/css/main.8d763704.chunk.css",
+    "static/js/main.a1036416.chunk.js"
   ]
 }
