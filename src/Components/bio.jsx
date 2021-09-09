@@ -16,13 +16,20 @@ export default function AboutMe() {
       <div className='bioBox'>
         <h3 className='bioTitle'>About me</h3>
         <p>
-          A Web Developer enjoying the problem-solving and looking forward to
-          fun big things in the near future. With experience in Mathematics and
-          being around computers most of my days, I'm eager to contribute strong
-          critical thinking and problem-solving to the team through fabulous
-          communication skills! These days with the little free time I have from
-          practicing code, I'll be wherever there's life to crack a joke and
-          enjoy the times.
+          A retired poker player, semi-retired cook who has found a keen
+          interest in programming during COVID-19.
+        </p>
+        <p>
+          I've graduated from a 12-week intensive Full Stack bootcamp a few
+          months ago, ever since continuing my studies and exploration to
+          further my knowledge. Eventually specializing in
+          Javascript/React/Redux with AWS experience.
+        </p>
+        <p>
+          Below you will find my proficient technical skills, highlighted full
+          stack projects and contact information. The demos page showcases
+          smaller project(s), although some can only be viewed on a desktop.
+          Feel free to visit my linkedin and github for further details!
         </p>
       </div>
     </>

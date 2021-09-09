@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import resume from '../assets/resume/resume.pdf';
 import { FaGithub } from 'react-icons/fa';
 import { SiLinkedin } from 'react-icons/si';
@@ -50,9 +51,14 @@ export default function Nav() {
         </div>
         <div className='directory'>
           <div className='nav-item'>
-            <a className='nav-link' href='#bio'>
-              Bio
-            </a>
+            <Link to='/Portfolio' className='nav-link'>
+              Home
+            </Link>
+          </div>
+          <div className='nav-item'>
+            <Link to='/demos' className='nav-link'>
+              Demos
+            </Link>
           </div>
           <div className='nav-item'>
             <a
@@ -82,9 +88,14 @@ export default function Nav() {
             &times;
           </button>
           <div className='nav-item'>
-            <a className='nav-link' href='#bio' onClick={closeNav}>
-              Bio
-            </a>
+            <Link to='/Portfolio' className='nav-link' onClick={closeNav}>
+              Home
+            </Link>
+          </div>
+          <div className='nav-item'>
+            <Link to='/demos' className='nav-link' onClick={closeNav}>
+              Demos
+            </Link>
           </div>
           <div className='nav-item'>
             <a

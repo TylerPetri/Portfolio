@@ -1,0 +1,82 @@
+.featuresWrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: #282c34;
+}
+
+.sidebarContainer {
+  height: max-content;
+  width: 25%;
+  padding-top: 50px;
+}
+
+.sidebarBTN {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 15px;
+  background-color: #282c34;
+  color: rgb(125, 169, 250);
+  text-shadow: 2px 2px purple;
+  border-top: 2px solid purple;
+  border: none;
+  font-family: 'Press Start 2P';
+}
+
+.sidebarBTN:hover {
+  background: #464a55;
+  cursor: pointer;
+}
+
+.featuresContainer,
+.featuresSnake {
+  height: 100%;
+  width: 95%;
+  padding-left: 50px;
+}
+
+.featuresContainer {
+  background-color: rgb(5, 4, 48);
+}
+
+.featuresSnake {
+  background: none;
+}
+
+.selectFeature {
+  display: block;
+  width: max-content;
+  margin: 150px 0;
+  font-family: 'Press Start 2P';
+  color: rgb(170, 63, 170);
+}
+
+.selectFeature h5 {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.featureSelected {
+  display: none;
+}
+
+.sortingFeature {
+  display: block;
+}
+
+.noSortingFeature {
+  display: none;
+}
+
+.snakeGameFeature {
+  display: block;
+}
+
+.noSnakeGameFeature {
+  display: none;
+}
