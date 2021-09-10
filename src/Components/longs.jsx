@@ -9,7 +9,7 @@ export default function Long(props) {
             <ul>
               <li>
                 Developed a full stack short story publishing/reading website,
-                including GSAP/loading animation.{' '}
+                with search features, login authentication and error handling.
               </li>
               <li>
                 MongoDB used as main database, utilizing DynamoDB for user info
