@@ -21,15 +21,15 @@ export default function AboutMe() {
         </p>
         <p>
           I've graduated from a 12-week intensive Full Stack bootcamp a few
-          months ago, ever since continuing my studies and exploration to
-          further my knowledge. Eventually specializing in
+          months ago, continuing my studies and exploration ever since to
+          further my knowledge. Eventually deciding to specialize in
           Javascript/React/Redux with AWS experience.
         </p>
         <p>
           Below you will find my proficient technical skills, highlighted full
           stack projects and contact information. The demos page showcases
-          smaller project(s), although some can only be viewed on a desktop.
-          Feel free to visit my linkedin and github for further details!
+          smaller projects, although one can only be viewed on a desktop. Feel
+          free to visit my linkedin and github for further details!
         </p>
       </div>
     </>
