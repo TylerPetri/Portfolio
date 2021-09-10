@@ -7,12 +7,14 @@ import Icons from '../Components/icons';
 import Shorts from '../Components/shorts';
 import Longs from '../Components/longs';
 
+import burgers from '../assets/images/burgers.PNG';
+
 const LibraryOfStoriesGIF =
   'https://media.giphy.com/media/xzLOp7sMSGMCOaNKWd/giphy.gif';
 const mailto = 'mailto:tylerpetri@hotmail.com';
 
-const googlebooksgif =
-  'https://media.giphy.com/media/7RfKm5aARV8pN9yK2m/giphy.gif';
+const chatPlatform =
+  'https://media.giphy.com/media/OkBZtHjfHYtAeMYyMI/giphy.gif';
 const AWSform = 'https://media.giphy.com/media/sm7fe9FOTpAIbXBmc3/giphy.gif';
 
 function Homepage() {
@@ -58,7 +60,8 @@ function Homepage() {
                 LibraryOfStoriesGIF={LibraryOfStoriesGIF}
                 AWSform={AWSform}
                 awsthoughts={awsthoughts}
-                googlebooksgif={googlebooksgif}
+                chatPlatform={chatPlatform}
+                burgers={burgers}
               />
             </div>
           </section>
@@ -70,7 +73,8 @@ function Homepage() {
                 LibraryOfStoriesGIF={LibraryOfStoriesGIF}
                 AWSform={AWSform}
                 awsthoughts={awsthoughts}
-                googlebooksgif={googlebooksgif}
+                chatPlatform={chatPlatform}
+                burgers={burgers}
               />
             </div>
           </section>

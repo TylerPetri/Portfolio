@@ -100,31 +100,27 @@ export default function Short(props) {
       <div className='work'>
         <div className='picCont'>
           <a
-            href='https://googlebooksapi9000.herokuapp.com/'
+            href='https://chatch4n.herokuapp.com/'
             target='_blank'
             rel='noreferrer'
           >
-            <img
-              src={props.googlebooksgif}
-              alt='google-books-search'
-              className='pic'
-            />
+            <img src={props.chatPlatform} alt='chat-platform' className='pic' />
           </a>
         </div>
-        <h4>MERN, API, Bcrypt, JWT, Google Books search app</h4>
+        <h4>SocketIO chatroom platform with MongoDB backend</h4>
         <p>
           {' '}
           <ul>
+            <li>Implemented SocketIO under the react framework (amusingly).</li>
             <li>
-              Developed a UI for the google books search API with
-              user-authentication by incorporating MongoDB & animation with
-              vantajs. A Reactjs app.
+              Utilizing MongoDB as the backend database to keep track of the
+              rooms/count display on the homepage
             </li>
           </ul>
         </p>
         <div className='gitappLinks'>
           <a
-            href='https://github.com/TylerPetri/Google-books-search.git'
+            href='https://github.com/TylerPetri/chat-platform.git'
             target='_blank'
             rel='noreferrer'
             className='gitlink'
@@ -132,7 +128,50 @@ export default function Short(props) {
             Github repo
           </a>
           <a
-            href='https://googlebooksapi9000.herokuapp.com/'
+            href='https://chatch4n.herokuapp.com/'
+            target='_blank'
+            rel='noreferrer'
+            className='gitlink'
+          >
+            App
+          </a>
+        </div>
+      </div>
+      <div className='work'>
+        <div className='picCont'>
+          <a
+            href='https://glacial-taiga-08008.herokuapp.com/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src={props.burgers} alt='burgers' className='pic' />
+          </a>
+        </div>
+        <h4>Handlebars MySQL</h4>
+        <p>
+          {' '}
+          <ul>
+            <li>
+              This project is meant to showcase my familiarity with vanilla
+              HTML/JS.
+            </li>
+            <li>
+              Utilizing Handlebars and a SQL database backend for tracking
+              information.
+            </li>
+          </ul>
+        </p>
+        <div className='gitappLinks'>
+          <a
+            href='https://github.com/TylerPetri/burger.git'
+            target='_blank'
+            rel='noreferrer'
+            className='gitlink'
+          >
+            Github repo
+          </a>
+          <a
+            href='https://glacial-taiga-08008.herokuapp.com/'
             target='_blank'
             rel='noreferrer'
             className='gitlink'

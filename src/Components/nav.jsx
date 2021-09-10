@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import resume from '../assets/resume/resume.pdf';
 import { FaGithub } from 'react-icons/fa';
 import { SiLinkedin } from 'react-icons/si';
@@ -10,6 +10,7 @@ const github = 'https://github.com/TylerPetri';
 
 export default function Nav() {
   const [sideNav, setSideNav] = useState(false);
+  const location = useLocation();
 
   function openNav() {
     setSideNav(true);
@@ -71,7 +72,7 @@ export default function Nav() {
             </a>
           </div>
           <div className='nav-item'>
-            <a className='nav-link' href='#footer'>
+            <a className='nav-link' href='/Portfolio#footer'>
               Contact
             </a>
           </div>
@@ -109,7 +110,7 @@ export default function Nav() {
             </a>
           </div>
           <div className='nav-item'>
-            <a className='nav-link' href='#footer' onClick={closeNav}>
+            <a className='nav-link' href='/Portfolio#footer' onClick={closeNav}>
               Contact
             </a>
           </div>
