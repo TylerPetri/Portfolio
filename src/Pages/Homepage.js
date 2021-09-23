@@ -11,7 +11,7 @@ import burgers from '../assets/images/burgers.PNG';
 
 const LibraryOfStoriesGIF =
   'https://media.giphy.com/media/xzLOp7sMSGMCOaNKWd/giphy.gif';
-const mailto = 'mailto:tylerpetri@hotmail.com';
+const mailto = 'mailto:tylerpetri93@gmail.com';
 
 const chatPlatform =
   'https://media.giphy.com/media/OkBZtHjfHYtAeMYyMI/giphy.gif';
